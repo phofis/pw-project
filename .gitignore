@@ -1,0 +1,4 @@
+.clang-format
+/bin
+/tests/input
+/tests/output
