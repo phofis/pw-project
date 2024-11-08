@@ -2,7 +2,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -O3
 CXXFLAGS_THREADS = -std=c++17 -pthread -O3
-CXXFLAGS_OPENMP = -std=c++17 -fopenmp -DNTHREADS=16 -O3
+CXXFLAGS_OPENMP = -std=c++17 -O3 -fopenmp
 
 # Time measurement
 TIME = time -p
@@ -17,7 +17,7 @@ OUTPUT_DIR = ./tests/output
 .SILENT:
 
 # Targets
-all: z5 z5single z5threaded z5openmp
+all: z5 z5single z5threaded4 z5openmp4 z5threaded16 z5openmp16 z5threaded64 z5openmp64
 
 # Compile gen.cpp, run it, and save output to /tests/input
 gen: $(SRC_DIR)/gen.cpp
@@ -55,28 +55,69 @@ z5single: $(SRC_DIR)/z5single.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $
 # Compile multi-threaded z5thread.cpp which uses C++ thread library for parallel operations
 # Run it with tests, measure the time, and save output to /tests/output
 # Number of threads used can be changed ath the start of z5thread.cpp
-z5threaded: $(SRC_DIR)/z5thread.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
+z5threaded4: $(SRC_DIR)/z5thread.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
 	$(CXX) $(CXXFLAGS_THREADS) $(SRC_DIR)/z5thread.cpp -o $(BIN_DIR)/z5thread
-	echo "Running multi-threaded z5 with C++ Threads..."
+	echo "Running multi-threaded z5 with 4 C++ Threads..."
 	echo "Running test - small..."
-	$(TIME) $(BIN_DIR)/z5thread < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5threadsmall.out
+	$(TIME) $(BIN_DIR)/z5thread 4 < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5threadsmall.out
 	echo "Running test - medium..."
-	$(TIME) $(BIN_DIR)/z5thread < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5threademedium.out
+	$(TIME) $(BIN_DIR)/z5thread 4 < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5threademedium.out
 	echo "Running test - big..."
-	$(TIME) $(BIN_DIR)/z5thread < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5threadbig.out
+	$(TIME) $(BIN_DIR)/z5thread 4 < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5threadbig.out
+
+z5threaded16: $(SRC_DIR)/z5thread.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
+	$(CXX) $(CXXFLAGS_THREADS) $(SRC_DIR)/z5thread.cpp -o $(BIN_DIR)/z5thread
+	echo "Running multi-threaded z5 with 16 C++ Threads..."
+	echo "Running test - small..."
+	$(TIME) $(BIN_DIR)/z5thread 16 < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5threadsmall.out
+	echo "Running test - medium..."
+	$(TIME) $(BIN_DIR)/z5thread 16 < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5threademedium.out
+	echo "Running test - big..."
+	$(TIME) $(BIN_DIR)/z5thread 16 < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5threadbig.out
+
+z5threaded64: $(SRC_DIR)/z5thread.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
+	$(CXX) $(CXXFLAGS_THREADS) $(SRC_DIR)/z5thread.cpp -o $(BIN_DIR)/z5thread
+	echo "Running multi-threaded z5 with 64 C++ Threads..."
+	echo "Running test - small..."
+	$(TIME) $(BIN_DIR)/z5thread 64 < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5threadsmall.out
+	echo "Running test - medium..."
+	$(TIME) $(BIN_DIR)/z5thread 64 < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5threademedium.out
+	echo "Running test - big..."
+	$(TIME) $(BIN_DIR)/z5thread 64 < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5threadbig.out
 
 # Compile multi-threaded z5openmp.cpp which uses OpenMP compiler extension for parallel operations
 # Run it with tests, measure the time, and save output to /tests/output
 # Number of threads used can be changed in CXXFLAGS_OPENMP at the start of Makefile
-z5openmp: $(SRC_DIR)/z5openmp.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
+z5openmp4: $(SRC_DIR)/z5openmp.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
 	$(CXX) $(CXXFLAGS_OPENMP) $(SRC_DIR)/z5openmp.cpp -o $(BIN_DIR)/z5openmp
-	echo "Running multi-threaded z5 with OpenMP..."
+	echo "Running multi-threaded z5 with 4 OpenMP Threads..."
 	echo "Running test - small..."
-	$(TIME) $(BIN_DIR)/z5openmp < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5openmpsmall.out
+	$(TIME) $(BIN_DIR)/z5openmp 4 < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5openmpsmall.out
 	echo "Running test - medium..."
-	$(TIME) $(BIN_DIR)/z5openmp < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5openmpmedium.out
+	$(TIME) $(BIN_DIR)/z5openmp 4 < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5openmpmedium.out
 	echo "Running test - big..."
-	$(TIME) $(BIN_DIR)/z5openmp < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5openmpbig.out
+	$(TIME) $(BIN_DIR)/z5openmp 4 < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5openmpbig.out
+
+z5openmp16: $(SRC_DIR)/z5openmp.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
+	$(CXX) $(CXXFLAGS_OPENMP) $(SRC_DIR)/z5openmp.cpp -o $(BIN_DIR)/z5openmp
+	echo "Running multi-threaded z5 with 16 OpenMP Threads..."
+	echo "Running test - small..."
+	$(TIME) $(BIN_DIR)/z5openmp 16 < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5openmpsmall.out
+	echo "Running test - medium..."
+	$(TIME) $(BIN_DIR)/z5openmp 16 < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5openmpmedium.out
+	echo "Running test - big..."
+	$(TIME) $(BIN_DIR)/z5openmp 16 < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5openmpbig.out
+
+z5openmp64: $(SRC_DIR)/z5openmp.cpp $(INPUT_DIR)/small.in $(INPUT_DIR)/medium.in $(INPUT_DIR)/big.in
+	export OMP_NUM_THREADS=64
+	$(CXX) $(CXXFLAGS_OPENMP) $(SRC_DIR)/z5openmp.cpp -o $(BIN_DIR)/z5openmp
+	echo "Running multi-threaded z5 with 64 OpenMP Threads..."
+	echo "Running test - small..."
+	$(TIME) $(BIN_DIR)/z5openmp 64 < $(INPUT_DIR)/small.in > $(OUTPUT_DIR)/z5openmpsmall.out
+	echo "Running test - medium..."
+	$(TIME) $(BIN_DIR)/z5openmp 64 < $(INPUT_DIR)/medium.in > $(OUTPUT_DIR)/z5openmpmedium.out
+	echo "Running test - big..."
+	$(TIME) $(BIN_DIR)/z5openmp 64 < $(INPUT_DIR)/big.in > $(OUTPUT_DIR)/z5openmpbig.out
 
 # Clean up binaries and tests
 clean:

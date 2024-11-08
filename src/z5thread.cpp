@@ -7,7 +7,7 @@ using namespace std;
 
 #define RESULT_MOD 1000
 
-#define THREAD_COUNT 16
+int THREAD_COUNT = 16;
 
 int pot(int base, int exp) {
     if (base == 0)
@@ -41,7 +41,7 @@ void calc(int start, int end, int n, int t, int bit_itr, vector<int> &count,
 }
 
 void calc2(int i, int start, int end, int n, int t, int bit_itr,
-          vector<int> &count, vector<vector<unsigned long long>> &bit) {
+           vector<int> &count, vector<vector<unsigned long long>> &bit) {
     int j = start, l, both;
     for (; j < end; j++) {
         both = 0;
@@ -55,10 +55,13 @@ void calc2(int i, int start, int end, int n, int t, int bit_itr,
     }
 }
 
-int main() {
+int main(int argc, char **argv) {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
+
+    if (argc > 1)
+        THREAD_COUNT = stoi(argv[1]);
 
     int MAX_N, MAX_M;
     cin >> MAX_N >> MAX_M;
@@ -94,15 +97,13 @@ int main() {
         for (i = 0; i < THREAD_COUNT; i++) {
             if (r > 0) {
                 threads[i] =
-                    thread(calc, avg * i + offset, avg * (i + 1) + 1 +
-                    offset,
+                    thread(calc, avg * i + offset, avg * (i + 1) + 1 + offset,
                            n, t, bit_itr, ref(count), ref(bit));
                 r--;
                 offset++;
             } else {
                 threads[i] =
-                    thread(calc, avg * i + offset, avg * (i + 1) + offset, n,
-                    t,
+                    thread(calc, avg * i + offset, avg * (i + 1) + offset, n, t,
                            bit_itr, ref(count), ref(bit));
             }
         }

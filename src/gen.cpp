@@ -14,10 +14,10 @@ int main() {
     cin >> z;
     int MAX_N;
     cin >> MAX_N;
-    int MIN_N = 2;
+    int MIN_N = MAX_N / 10;
     int MAX_M;
     cin >> MAX_M;
-    int MIN_M = 1;
+    int MIN_M = MAX_M / 10;
 
     int n, m, t, u, k, i;
     string s;

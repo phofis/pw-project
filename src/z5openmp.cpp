@@ -1,5 +1,6 @@
 #include <iomanip>
 #include <iostream>
+#include <omp.h>
 #include <vector>
 #pragma GCC target("popcnt")
 using namespace std;
@@ -20,10 +21,14 @@ int pot(int base, int exp) {
     return result;
 }
 
-int main() {
+int main(int argc, char **argv) {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
+    
+    int THREAD_COUNT = 16;
+    if (argc > 1)
+        THREAD_COUNT = stoi(argv[1]);
 
     int MAX_N, MAX_M;
     cin >> MAX_N >> MAX_M;
@@ -52,9 +57,8 @@ int main() {
 
         bit_itr = (m + 63) >> 6;
 
-        // #pragma omp parallel for
+        #pragma omp parallel for num_threads(THREAD_COUNT)
         for (i = 0; i < n; i++) {
-            #pragma omp parallel for
             for (j = i + 1; j < n; j++) {
                 both = 0;
                 for (l = 0; l < bit_itr; l++) {
@@ -71,7 +75,7 @@ int main() {
                 special++;
         cout << special << ' ' << setfill('0') << setw(3) << pot(special, k)
              << '\n';
-        
+
         for (i = 0; i < n; i++) {
             bit[i].assign(MAX_BITS_SIZE, 0);
         }

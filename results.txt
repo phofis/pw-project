@@ -1,0 +1,10700 @@
+
+test 1
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.49
+sys 0.09
+Running test - medium...
+real 7.98
+user 7.87
+sys 0.10
+Running test - big...
+real 58.40
+user 58.14
+sys 0.23
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.82
+sys 0.06
+Running test - medium...
+real 2.71
+user 2.64
+sys 0.06
+Running test - big...
+real 16.12
+user 15.93
+sys 0.19
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.50
+user 1.99
+sys 0.41
+Running test - medium...
+real 2.10
+user 3.96
+sys 0.14
+Running test - big...
+real 8.36
+user 16.21
+sys 0.17
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 3.02
+sys 0.06
+Running test - medium...
+real 1.71
+user 6.17
+sys 0.07
+Running test - big...
+real 8.36
+user 17.01
+sys 0.18
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.09
+user 2.86
+sys 1.91
+Running test - medium...
+real 1.58
+user 6.36
+sys 0.25
+Running test - big...
+real 3.75
+user 17.41
+sys 0.20
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.71
+user 11.27
+sys 0.08
+Running test - medium...
+real 1.13
+user 15.90
+sys 0.09
+Running test - big...
+real 3.59
+user 20.82
+sys 0.16
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.93
+user 3.15
+sys 5.96
+Running test - medium...
+real 1.81
+user 8.70
+sys 0.87
+Running test - big...
+real 2.41
+user 22.63
+sys 0.27
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.13
+user 69.43
+sys 0.44
+Running test - medium...
+real 1.27
+user 70.14
+sys 0.33
+Running test - big...
+real 2.49
+user 38.22
+sys 0.29
+
+test 2
+
+Running orginal z5...
+Running test - small...
+real 1.58
+user 1.47
+sys 0.10
+Running test - medium...
+real 7.99
+user 7.87
+sys 0.12
+Running test - big...
+real 78.88
+user 78.47
+sys 0.35
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.83
+sys 0.10
+Running test - medium...
+real 2.72
+user 2.55
+sys 0.15
+Running test - big...
+real 22.23
+user 21.86
+sys 0.36
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.62
+user 2.03
+sys 0.44
+Running test - medium...
+real 2.27
+user 4.18
+sys 0.15
+Running test - big...
+real 14.31
+user 25.02
+sys 0.43
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.09
+sys 0.11
+Running test - medium...
+real 1.71
+user 5.95
+sys 0.16
+Running test - big...
+real 11.38
+user 22.41
+sys 0.42
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.03
+user 2.68
+sys 1.92
+Running test - medium...
+real 1.63
+user 6.27
+sys 0.29
+Running test - big...
+real 5.58
+user 25.06
+sys 0.37
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.80
+user 12.61
+sys 0.13
+Running test - medium...
+real 1.13
+user 15.24
+sys 0.14
+Running test - big...
+real 4.73
+user 25.95
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.08
+user 3.26
+sys 6.50
+Running test - medium...
+real 1.74
+user 7.86
+sys 1.05
+Running test - big...
+real 3.26
+user 29.54
+sys 0.38
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.02
+user 61.53
+sys 0.30
+Running test - medium...
+real 1.17
+user 60.18
+sys 0.28
+Running test - big...
+real 3.00
+user 42.84
+sys 1.59
+
+test 3
+
+Running orginal z5...
+Running test - small...
+real 1.53
+user 1.46
+sys 0.06
+Running test - medium...
+real 8.34
+user 8.28
+sys 0.05
+Running test - big...
+real 60.81
+user 60.52
+sys 0.27
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.87
+user 0.81
+sys 0.06
+Running test - medium...
+real 2.78
+user 2.69
+sys 0.08
+Running test - big...
+real 16.46
+user 16.09
+sys 0.35
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.40
+user 1.85
+sys 0.53
+Running test - medium...
+real 2.26
+user 4.31
+sys 0.09
+Running test - big...
+real 8.86
+user 16.80
+sys 0.33
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.73
+user 2.88
+sys 0.05
+Running test - medium...
+real 1.71
+user 6.17
+sys 0.09
+Running test - big...
+real 8.70
+user 17.46
+sys 0.27
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.01
+user 2.65
+sys 2.04
+Running test - medium...
+real 1.56
+user 6.64
+sys 0.25
+Running test - big...
+real 4.10
+user 18.01
+sys 0.30
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.46
+sys 0.07
+Running test - medium...
+real 1.11
+user 15.75
+sys 0.06
+Running test - big...
+real 3.92
+user 21.57
+sys 0.33
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.87
+user 3.16
+sys 6.01
+Running test - medium...
+real 1.85
+user 9.51
+sys 1.03
+Running test - big...
+real 2.79
+user 23.96
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.79
+user 50.09
+sys 0.06
+Running test - medium...
+real 1.15
+user 62.44
+sys 0.26
+Running test - big...
+real 2.72
+user 39.93
+sys 0.61
+
+test 4
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.47
+sys 0.11
+Running test - medium...
+real 10.19
+user 10.05
+sys 0.13
+Running test - big...
+real 58.63
+user 58.34
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.85
+sys 0.08
+Running test - medium...
+real 3.39
+user 3.22
+sys 0.17
+Running test - big...
+real 16.08
+user 15.71
+sys 0.36
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 1.88
+sys 0.55
+Running test - medium...
+real 2.58
+user 4.79
+sys 0.22
+Running test - big...
+real 8.69
+user 16.31
+sys 0.32
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.10
+sys 0.11
+Running test - medium...
+real 2.09
+user 7.37
+sys 0.14
+Running test - big...
+real 8.52
+user 16.96
+sys 0.28
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.19
+user 3.07
+sys 1.83
+Running test - medium...
+real 1.88
+user 7.73
+sys 0.28
+Running test - big...
+real 4.11
+user 17.64
+sys 0.35
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.68
+sys 0.12
+Running test - medium...
+real 1.40
+user 18.86
+sys 0.10
+Running test - big...
+real 3.92
+user 20.76
+sys 0.32
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.00
+user 3.23
+sys 6.34
+Running test - medium...
+real 2.08
+user 10.33
+sys 0.99
+Running test - big...
+real 2.84
+user 22.24
+sys 0.45
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.88
+user 55.17
+sys 0.08
+Running test - medium...
+real 1.37
+user 72.93
+sys 0.31
+Running test - big...
+real 2.80
+user 38.13
+sys 0.84
+
+test 5
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.51
+sys 0.09
+Running test - medium...
+real 7.31
+user 7.20
+sys 0.10
+Running test - big...
+real 79.56
+user 79.09
+sys 0.43
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.83
+sys 0.11
+Running test - medium...
+real 2.52
+user 2.37
+sys 0.15
+Running test - big...
+real 21.65
+user 21.26
+sys 0.36
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 2.00
+sys 0.52
+Running test - medium...
+real 2.09
+user 3.80
+sys 0.18
+Running test - big...
+real 11.50
+user 21.68
+sys 0.43
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.17
+sys 0.08
+Running test - medium...
+real 1.60
+user 5.79
+sys 0.15
+Running test - big...
+real 11.27
+user 22.48
+sys 0.42
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.05
+user 2.87
+sys 2.06
+Running test - medium...
+real 1.49
+user 6.15
+sys 0.24
+Running test - big...
+real 5.16
+user 22.89
+sys 0.33
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.01
+sys 0.10
+Running test - medium...
+real 1.10
+user 15.52
+sys 0.18
+Running test - big...
+real 4.96
+user 26.61
+sys 0.41
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.92
+user 3.27
+sys 6.17
+Running test - medium...
+real 1.73
+user 7.89
+sys 1.05
+Running test - big...
+real 3.47
+user 28.62
+sys 0.50
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.12
+user 68.82
+sys 0.91
+Running test - medium...
+real 1.14
+user 64.08
+sys 0.42
+Running test - big...
+real 3.32
+user 45.72
+sys 1.42
+
+test 6
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.52
+sys 0.09
+Running test - medium...
+real 7.91
+user 7.80
+sys 0.11
+Running test - big...
+real 69.29
+user 68.98
+sys 0.29
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.82
+sys 0.11
+Running test - medium...
+real 2.71
+user 2.61
+sys 0.10
+Running test - big...
+real 19.81
+user 19.48
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 1.96
+sys 0.52
+Running test - medium...
+real 2.14
+user 3.93
+sys 0.17
+Running test - big...
+real 10.45
+user 20.10
+sys 0.28
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.13
+sys 0.09
+Running test - medium...
+real 1.71
+user 6.16
+sys 0.13
+Running test - big...
+real 10.27
+user 20.77
+sys 0.28
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.03
+user 2.94
+sys 1.93
+Running test - medium...
+real 1.58
+user 6.38
+sys 0.25
+Running test - big...
+real 4.53
+user 21.24
+sys 0.33
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 11.93
+sys 0.14
+Running test - medium...
+real 1.20
+user 17.08
+sys 0.10
+Running test - big...
+real 4.37
+user 25.37
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.09
+user 3.20
+sys 6.48
+Running test - medium...
+real 1.83
+user 8.51
+sys 0.87
+Running test - big...
+real 2.92
+user 27.07
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.08
+user 67.88
+sys 0.29
+Running test - medium...
+real 1.23
+user 67.68
+sys 0.34
+Running test - big...
+real 2.80
+user 43.88
+sys 1.03
+
+test 7
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.49
+sys 0.08
+Running test - medium...
+real 7.37
+user 7.25
+sys 0.11
+Running test - big...
+real 48.72
+user 48.37
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.82
+sys 0.09
+Running test - medium...
+real 2.52
+user 2.34
+sys 0.17
+Running test - big...
+real 13.66
+user 13.38
+sys 0.27
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 1.98
+sys 0.48
+Running test - medium...
+real 2.00
+user 3.73
+sys 0.16
+Running test - big...
+real 7.26
+user 13.83
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.03
+sys 0.10
+Running test - medium...
+real 1.60
+user 5.84
+sys 0.08
+Running test - big...
+real 7.16
+user 14.74
+sys 0.27
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.11
+user 2.85
+sys 2.09
+Running test - medium...
+real 1.45
+user 6.18
+sys 0.29
+Running test - big...
+real 3.44
+user 15.04
+sys 0.24
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.67
+sys 0.11
+Running test - medium...
+real 1.07
+user 15.28
+sys 0.11
+Running test - big...
+real 3.26
+user 18.64
+sys 0.23
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.96
+user 3.26
+sys 6.08
+Running test - medium...
+real 1.71
+user 9.24
+sys 1.04
+Running test - big...
+real 2.40
+user 19.16
+sys 0.37
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.91
+user 57.14
+sys 0.16
+Running test - medium...
+real 1.15
+user 64.83
+sys 0.28
+Running test - big...
+real 2.33
+user 36.11
+sys 0.40
+
+test 8
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.53
+sys 0.04
+Running test - medium...
+real 8.99
+user 8.88
+sys 0.10
+Running test - big...
+real 84.84
+user 84.43
+sys 0.38
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.83
+sys 0.06
+Running test - medium...
+real 2.91
+user 2.81
+sys 0.09
+Running test - big...
+real 23.29
+user 22.97
+sys 0.30
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.49
+user 2.07
+sys 0.36
+Running test - medium...
+real 2.37
+user 4.40
+sys 0.14
+Running test - big...
+real 12.33
+user 23.55
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.76
+user 2.95
+sys 0.07
+Running test - medium...
+real 1.80
+user 6.61
+sys 0.08
+Running test - big...
+real 12.15
+user 24.45
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.13
+user 2.87
+sys 1.88
+Running test - medium...
+real 1.64
+user 6.73
+sys 0.20
+Running test - big...
+real 5.39
+user 24.65
+sys 0.25
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.34
+sys 0.10
+Running test - medium...
+real 1.21
+user 17.58
+sys 0.08
+Running test - big...
+real 5.19
+user 28.47
+sys 0.17
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.03
+user 3.17
+sys 6.38
+Running test - medium...
+real 1.93
+user 9.63
+sys 0.82
+Running test - big...
+real 3.57
+user 30.82
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.66
+user 102.19
+sys 0.70
+Running test - medium...
+real 1.16
+user 64.58
+sys 0.39
+Running test - big...
+real 3.53
+user 48.87
+sys 0.61
+
+test 9
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.56
+sys 0.07
+Running test - medium...
+real 7.66
+user 7.57
+sys 0.09
+Running test - big...
+real 40.47
+user 40.25
+sys 0.19
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.80
+sys 0.10
+Running test - medium...
+real 2.58
+user 2.45
+sys 0.12
+Running test - big...
+real 11.38
+user 11.18
+sys 0.20
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 2.07
+sys 0.41
+Running test - medium...
+real 2.03
+user 3.85
+sys 0.09
+Running test - big...
+real 6.22
+user 11.80
+sys 0.16
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.07
+sys 0.08
+Running test - medium...
+real 1.62
+user 5.93
+sys 0.07
+Running test - big...
+real 6.08
+user 12.51
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.07
+user 2.93
+sys 1.96
+Running test - medium...
+real 1.54
+user 6.07
+sys 0.26
+Running test - big...
+real 2.90
+user 12.82
+sys 0.16
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.59
+sys 0.06
+Running test - medium...
+real 1.11
+user 15.79
+sys 0.06
+Running test - big...
+real 2.73
+user 15.86
+sys 0.14
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.98
+user 3.32
+sys 6.25
+Running test - medium...
+real 1.64
+user 7.97
+sys 0.84
+Running test - big...
+real 2.06
+user 17.73
+sys 0.22
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.23
+user 74.88
+sys 0.37
+Running test - medium...
+real 1.20
+user 67.19
+sys 0.15
+Running test - big...
+real 2.06
+user 33.46
+sys 0.29
+
+test 10
+
+Running orginal z5...
+Running test - small...
+real 1.54
+user 1.46
+sys 0.07
+Running test - medium...
+real 8.64
+user 8.55
+sys 0.08
+Running test - big...
+real 66.39
+user 66.00
+sys 0.37
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.88
+user 0.80
+sys 0.08
+Running test - medium...
+real 2.96
+user 2.85
+sys 0.09
+Running test - big...
+real 18.28
+user 17.97
+sys 0.30
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.49
+user 2.09
+sys 0.36
+Running test - medium...
+real 2.36
+user 4.40
+sys 0.15
+Running test - big...
+real 9.77
+user 18.24
+sys 0.36
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.74
+user 2.90
+sys 0.05
+Running test - medium...
+real 1.83
+user 6.69
+sys 0.07
+Running test - big...
+real 9.57
+user 18.97
+sys 0.36
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.11
+user 2.95
+sys 2.03
+Running test - medium...
+real 1.64
+user 6.77
+sys 0.28
+Running test - big...
+real 4.44
+user 19.23
+sys 0.41
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.36
+sys 0.05
+Running test - medium...
+real 1.18
+user 17.00
+sys 0.08
+Running test - big...
+real 4.28
+user 23.22
+sys 0.37
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.96
+user 3.19
+sys 6.13
+Running test - medium...
+real 1.97
+user 9.81
+sys 0.98
+Running test - big...
+real 3.06
+user 23.88
+sys 0.46
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.95
+user 58.54
+sys 0.51
+Running test - medium...
+real 1.22
+user 66.35
+sys 0.18
+Running test - big...
+real 2.86
+user 40.22
+sys 0.34
+
+test 11
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.42
+sys 0.14
+Running test - medium...
+real 7.68
+user 7.61
+sys 0.05
+Running test - big...
+real 38.72
+user 38.50
+sys 0.20
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.80
+sys 0.10
+Running test - medium...
+real 2.56
+user 2.48
+sys 0.07
+Running test - big...
+real 10.98
+user 10.72
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.48
+user 1.89
+sys 0.57
+Running test - medium...
+real 1.96
+user 3.71
+sys 0.09
+Running test - big...
+real 6.01
+user 11.22
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.07
+sys 0.09
+Running test - medium...
+real 1.62
+user 5.98
+sys 0.09
+Running test - big...
+real 6.67
+user 12.73
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.18
+user 3.10
+sys 2.10
+Running test - medium...
+real 1.45
+user 6.32
+sys 0.16
+Running test - big...
+real 2.87
+user 12.31
+sys 0.26
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.67
+sys 0.12
+Running test - medium...
+real 1.08
+user 15.73
+sys 0.13
+Running test - big...
+real 2.75
+user 15.57
+sys 0.24
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.02
+user 3.25
+sys 6.11
+Running test - medium...
+real 1.82
+user 8.87
+sys 0.92
+Running test - big...
+real 2.04
+user 16.07
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.87
+user 55.36
+sys 0.08
+Running test - medium...
+real 1.22
+user 68.14
+sys 0.29
+Running test - big...
+real 1.98
+user 31.49
+sys 0.26
+
+test 12
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.53
+sys 0.03
+Running test - medium...
+real 7.96
+user 7.85
+sys 0.09
+Running test - big...
+real 46.89
+user 46.59
+sys 0.25
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.88
+user 0.82
+sys 0.06
+Running test - medium...
+real 2.68
+user 2.57
+sys 0.09
+Running test - big...
+real 12.89
+user 12.66
+sys 0.22
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 1.99
+sys 0.41
+Running test - medium...
+real 2.14
+user 4.08
+sys 0.10
+Running test - big...
+real 7.04
+user 13.34
+sys 0.22
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.95
+sys 0.06
+Running test - medium...
+real 1.64
+user 5.96
+sys 0.09
+Running test - big...
+real 6.88
+user 14.08
+sys 0.18
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.08
+user 2.86
+sys 1.91
+Running test - medium...
+real 1.48
+user 6.29
+sys 0.23
+Running test - big...
+real 3.27
+user 14.41
+sys 0.21
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.71
+user 11.30
+sys 0.04
+Running test - medium...
+real 1.09
+user 15.60
+sys 0.10
+Running test - big...
+real 3.11
+user 17.82
+sys 0.20
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.98
+user 3.11
+sys 6.15
+Running test - medium...
+real 1.82
+user 9.36
+sys 0.83
+Running test - big...
+real 2.33
+user 20.39
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.17
+user 73.04
+sys 0.31
+Running test - medium...
+real 1.11
+user 61.68
+sys 0.14
+Running test - big...
+real 2.31
+user 35.48
+sys 0.47
+
+test 13
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.54
+sys 0.08
+Running test - medium...
+real 7.00
+user 6.92
+sys 0.07
+Running test - big...
+real 39.32
+user 39.03
+sys 0.27
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.82
+sys 0.13
+Running test - medium...
+real 2.41
+user 2.29
+sys 0.12
+Running test - big...
+real 11.47
+user 11.16
+sys 0.30
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.60
+user 2.02
+sys 0.48
+Running test - medium...
+real 1.94
+user 3.58
+sys 0.16
+Running test - big...
+real 6.28
+user 11.72
+sys 0.21
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.12
+sys 0.15
+Running test - medium...
+real 1.52
+user 5.56
+sys 0.12
+Running test - big...
+real 5.95
+user 12.23
+sys 0.23
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.29
+user 2.99
+sys 2.12
+Running test - medium...
+real 1.46
+user 5.88
+sys 0.24
+Running test - big...
+real 3.00
+user 12.61
+sys 0.35
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.86
+sys 0.11
+Running test - medium...
+real 1.05
+user 15.21
+sys 0.14
+Running test - big...
+real 2.86
+user 16.16
+sys 0.26
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.91
+user 3.15
+sys 6.22
+Running test - medium...
+real 1.69
+user 8.80
+sys 0.93
+Running test - big...
+real 2.24
+user 18.10
+sys 0.34
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.87
+user 54.89
+sys 0.16
+Running test - medium...
+real 1.16
+user 65.13
+sys 0.17
+Running test - big...
+real 2.15
+user 33.02
+sys 1.57
+
+test 14
+
+Running orginal z5...
+Running test - small...
+real 1.58
+user 1.48
+sys 0.08
+Running test - medium...
+real 6.81
+user 6.74
+sys 0.07
+Running test - big...
+real 94.63
+user 94.24
+sys 0.37
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.88
+user 0.79
+sys 0.08
+Running test - medium...
+real 2.32
+user 2.21
+sys 0.11
+Running test - big...
+real 26.31
+user 25.84
+sys 0.45
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 1.95
+sys 0.53
+Running test - medium...
+real 1.90
+user 3.59
+sys 0.07
+Running test - big...
+real 13.94
+user 26.19
+sys 0.47
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.04
+sys 0.07
+Running test - medium...
+real 1.46
+user 5.33
+sys 0.06
+Running test - big...
+real 13.86
+user 26.99
+sys 0.45
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.19
+user 2.96
+sys 2.07
+Running test - medium...
+real 1.35
+user 5.48
+sys 0.22
+Running test - big...
+real 5.85
+user 26.90
+sys 0.44
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.47
+sys 0.06
+Running test - medium...
+real 0.97
+user 13.88
+sys 0.06
+Running test - big...
+real 5.82
+user 31.08
+sys 0.42
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.08
+user 3.32
+sys 6.31
+Running test - medium...
+real 1.57
+user 7.53
+sys 0.93
+Running test - big...
+real 3.78
+user 33.18
+sys 0.54
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.96
+user 59.78
+sys 0.18
+Running test - medium...
+real 1.04
+user 58.12
+sys 0.23
+Running test - big...
+real 3.75
+user 48.84
+sys 2.30
+
+test 15
+
+Running orginal z5...
+Running test - small...
+real 1.65
+user 1.51
+sys 0.13
+Running test - medium...
+real 8.74
+user 8.62
+sys 0.10
+Running test - big...
+real 41.48
+user 41.26
+sys 0.19
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.96
+user 0.84
+sys 0.11
+Running test - medium...
+real 2.94
+user 2.79
+sys 0.14
+Running test - big...
+real 11.77
+user 11.52
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.54
+user 2.08
+sys 0.43
+Running test - medium...
+real 2.44
+user 4.51
+sys 0.17
+Running test - big...
+real 6.64
+user 12.34
+sys 0.14
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.83
+user 3.18
+sys 0.11
+Running test - medium...
+real 1.83
+user 6.45
+sys 0.13
+Running test - big...
+real 6.33
+user 12.89
+sys 0.22
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.17
+user 2.92
+sys 2.05
+Running test - medium...
+real 1.68
+user 6.77
+sys 0.31
+Running test - big...
+real 2.90
+user 13.05
+sys 0.21
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.01
+sys 0.13
+Running test - medium...
+real 1.24
+user 16.96
+sys 0.17
+Running test - big...
+real 2.75
+user 16.19
+sys 0.21
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.12
+user 3.36
+sys 6.16
+Running test - medium...
+real 1.87
+user 9.08
+sys 0.99
+Running test - big...
+real 1.99
+user 17.80
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.96
+user 60.19
+sys 0.17
+Running test - medium...
+real 1.27
+user 68.66
+sys 0.19
+Running test - big...
+real 1.89
+user 32.24
+sys 0.22
+
+test 16
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.50
+sys 0.09
+Running test - medium...
+real 7.94
+user 7.83
+sys 0.11
+Running test - big...
+real 48.41
+user 48.18
+sys 0.21
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.81
+sys 0.12
+Running test - medium...
+real 2.66
+user 2.49
+sys 0.16
+Running test - big...
+real 13.58
+user 13.26
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 1.96
+sys 0.54
+Running test - medium...
+real 2.11
+user 3.88
+sys 0.18
+Running test - big...
+real 7.18
+user 13.67
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.10
+sys 0.12
+Running test - medium...
+real 1.68
+user 5.93
+sys 0.11
+Running test - big...
+real 7.11
+user 14.54
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.12
+user 2.98
+sys 1.86
+Running test - medium...
+real 1.50
+user 6.08
+sys 0.24
+Running test - big...
+real 3.44
+user 15.00
+sys 0.26
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.67
+sys 0.10
+Running test - medium...
+real 1.13
+user 15.51
+sys 0.14
+Running test - big...
+real 3.30
+user 18.84
+sys 0.26
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.99
+user 3.19
+sys 6.37
+Running test - medium...
+real 1.86
+user 8.69
+sys 0.88
+Running test - big...
+real 2.55
+user 20.98
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.15
+user 71.44
+sys 0.51
+Running test - medium...
+real 1.19
+user 63.79
+sys 0.18
+Running test - big...
+real 2.34
+user 35.43
+sys 0.90
+
+test 17
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.43
+sys 0.11
+Running test - medium...
+real 7.06
+user 6.94
+sys 0.11
+Running test - big...
+real 61.59
+user 61.35
+sys 0.22
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.78
+sys 0.13
+Running test - medium...
+real 2.53
+user 2.39
+sys 0.13
+Running test - big...
+real 17.23
+user 16.87
+sys 0.34
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.54
+user 2.06
+sys 0.39
+Running test - medium...
+real 1.94
+user 3.54
+sys 0.19
+Running test - big...
+real 9.11
+user 17.30
+sys 0.33
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.02
+sys 0.12
+Running test - medium...
+real 1.54
+user 5.44
+sys 0.13
+Running test - big...
+real 9.04
+user 18.13
+sys 0.30
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.11
+user 2.85
+sys 1.99
+Running test - medium...
+real 1.44
+user 5.66
+sys 0.28
+Running test - big...
+real 4.15
+user 18.63
+sys 0.35
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.50
+sys 0.11
+Running test - medium...
+real 1.04
+user 14.35
+sys 0.17
+Running test - big...
+real 4.00
+user 22.29
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.11
+user 3.17
+sys 6.37
+Running test - medium...
+real 1.68
+user 8.10
+sys 0.83
+Running test - big...
+real 2.85
+user 25.30
+sys 0.40
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.37
+user 83.09
+sys 0.81
+Running test - medium...
+real 1.21
+user 63.92
+sys 0.17
+Running test - big...
+real 2.67
+user 38.87
+sys 1.26
+
+test 18
+
+Running orginal z5...
+Running test - small...
+real 1.51
+user 1.46
+sys 0.05
+Running test - medium...
+real 8.85
+user 8.66
+sys 0.18
+Running test - big...
+real 51.14
+user 50.89
+sys 0.23
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.86
+user 0.77
+sys 0.09
+Running test - medium...
+real 3.02
+user 2.82
+sys 0.19
+Running test - big...
+real 14.68
+user 14.44
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.49
+user 1.87
+sys 0.49
+Running test - medium...
+real 2.45
+user 4.47
+sys 0.19
+Running test - big...
+real 7.93
+user 15.04
+sys 0.21
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.74
+user 2.89
+sys 0.05
+Running test - medium...
+real 1.90
+user 6.75
+sys 0.12
+Running test - big...
+real 7.97
+user 16.02
+sys 0.20
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.14
+user 2.86
+sys 2.13
+Running test - medium...
+real 1.74
+user 6.89
+sys 0.33
+Running test - big...
+real 3.72
+user 16.33
+sys 0.19
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.54
+sys 0.10
+Running test - medium...
+real 1.26
+user 17.29
+sys 0.17
+Running test - big...
+real 3.48
+user 19.89
+sys 0.18
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.91
+user 2.97
+sys 6.28
+Running test - medium...
+real 2.02
+user 10.48
+sys 1.01
+Running test - big...
+real 2.57
+user 22.27
+sys 0.31
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.80
+user 50.80
+sys 0.11
+Running test - medium...
+real 1.40
+user 74.53
+sys 0.25
+Running test - big...
+real 2.55
+user 36.54
+sys 1.06
+
+test 19
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.47
+sys 0.08
+Running test - medium...
+real 8.52
+user 8.44
+sys 0.07
+Running test - big...
+real 46.12
+user 45.81
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.80
+sys 0.08
+Running test - medium...
+real 2.85
+user 2.74
+sys 0.09
+Running test - big...
+real 13.28
+user 12.96
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 2.08
+sys 0.34
+Running test - medium...
+real 2.40
+user 4.51
+sys 0.09
+Running test - big...
+real 7.12
+user 13.25
+sys 0.24
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.76
+user 2.98
+sys 0.04
+Running test - medium...
+real 1.76
+user 6.54
+sys 0.09
+Running test - big...
+real 6.99
+user 13.99
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.22
+user 3.05
+sys 2.11
+Running test - medium...
+real 1.62
+user 6.54
+sys 0.25
+Running test - big...
+real 3.40
+user 14.23
+sys 0.24
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.80
+user 12.65
+sys 0.10
+Running test - medium...
+real 1.23
+user 17.99
+sys 0.07
+Running test - big...
+real 3.42
+user 18.15
+sys 0.24
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.92
+user 3.15
+sys 5.94
+Running test - medium...
+real 1.94
+user 9.20
+sys 1.04
+Running test - big...
+real 2.49
+user 18.01
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.00
+user 61.91
+sys 0.20
+Running test - medium...
+real 1.19
+user 66.99
+sys 0.47
+Running test - big...
+real 2.49
+user 33.50
+sys 0.70
+
+test 20
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.54
+sys 0.07
+Running test - medium...
+real 7.71
+user 7.59
+sys 0.11
+Running test - big...
+real 67.15
+user 66.82
+sys 0.28
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.98
+user 0.81
+sys 0.16
+Running test - medium...
+real 2.62
+user 2.49
+sys 0.13
+Running test - big...
+real 17.53
+user 17.18
+sys 0.34
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.58
+user 2.08
+sys 0.51
+Running test - medium...
+real 2.07
+user 3.86
+sys 0.14
+Running test - big...
+real 9.53
+user 17.60
+sys 0.38
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.17
+sys 0.12
+Running test - medium...
+real 1.67
+user 5.99
+sys 0.09
+Running test - big...
+real 9.33
+user 18.26
+sys 0.32
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.21
+user 3.09
+sys 2.12
+Running test - medium...
+real 1.54
+user 6.15
+sys 0.31
+Running test - big...
+real 4.26
+user 18.68
+sys 0.44
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.07
+sys 0.13
+Running test - medium...
+real 1.11
+user 15.42
+sys 0.16
+Running test - big...
+real 4.45
+user 23.19
+sys 0.36
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 3.64
+sys 6.09
+Running test - medium...
+real 1.73
+user 8.41
+sys 0.91
+Running test - big...
+real 2.84
+user 24.47
+sys 0.43
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.95
+user 59.02
+sys 0.28
+Running test - medium...
+real 1.20
+user 66.63
+sys 0.37
+Running test - big...
+real 2.79
+user 40.29
+sys 0.82
+
+test 21
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.50
+sys 0.10
+Running test - medium...
+real 8.51
+user 8.42
+sys 0.07
+Running test - big...
+real 46.42
+user 46.14
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.78
+sys 0.14
+Running test - medium...
+real 2.84
+user 2.70
+sys 0.13
+Running test - big...
+real 13.40
+user 13.07
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.58
+user 2.14
+sys 0.45
+Running test - medium...
+real 2.21
+user 4.12
+sys 0.18
+Running test - big...
+real 7.16
+user 13.37
+sys 0.33
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.12
+sys 0.09
+Running test - medium...
+real 1.78
+user 6.29
+sys 0.16
+Running test - big...
+real 7.13
+user 14.24
+sys 0.25
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.93
+sys 2.03
+Running test - medium...
+real 1.62
+user 6.66
+sys 0.32
+Running test - big...
+real 3.37
+user 14.53
+sys 0.29
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.74
+sys 0.11
+Running test - medium...
+real 1.16
+user 16.07
+sys 0.17
+Running test - big...
+real 3.27
+user 17.96
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.19
+user 3.30
+sys 6.42
+Running test - medium...
+real 1.90
+user 9.43
+sys 1.05
+Running test - big...
+real 2.48
+user 19.29
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.17
+user 71.85
+sys 1.23
+Running test - medium...
+real 1.25
+user 66.59
+sys 0.26
+Running test - big...
+real 2.24
+user 32.97
+sys 0.70
+
+test 22
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.49
+sys 0.07
+Running test - medium...
+real 7.02
+user 6.91
+sys 0.11
+Running test - big...
+real 68.41
+user 68.05
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.88
+user 0.81
+sys 0.06
+Running test - medium...
+real 2.38
+user 2.31
+sys 0.06
+Running test - big...
+real 19.34
+user 19.10
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.48
+user 1.91
+sys 0.44
+Running test - medium...
+real 1.93
+user 3.65
+sys 0.11
+Running test - big...
+real 10.14
+user 19.47
+sys 0.21
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.96
+sys 0.04
+Running test - medium...
+real 1.49
+user 5.48
+sys 0.08
+Running test - big...
+real 9.86
+user 20.01
+sys 0.25
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 1.93
+user 2.70
+sys 2.00
+Running test - medium...
+real 1.41
+user 5.90
+sys 0.24
+Running test - big...
+real 4.32
+user 20.49
+sys 0.22
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.69
+user 11.04
+sys 0.07
+Running test - medium...
+real 1.05
+user 14.78
+sys 0.11
+Running test - big...
+real 4.24
+user 24.58
+sys 0.15
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 3.33
+sys 6.30
+Running test - medium...
+real 1.74
+user 8.35
+sys 0.98
+Running test - big...
+real 2.81
+user 26.66
+sys 0.24
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.17
+user 70.97
+sys 0.75
+Running test - medium...
+real 1.05
+user 57.63
+sys 0.33
+Running test - big...
+real 2.85
+user 43.75
+sys 0.45
+
+test 23
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.49
+sys 0.11
+Running test - medium...
+real 7.85
+user 7.69
+sys 0.15
+Running test - big...
+real 47.42
+user 47.07
+sys 0.33
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.85
+sys 0.09
+Running test - medium...
+real 2.67
+user 2.53
+sys 0.14
+Running test - big...
+real 12.91
+user 12.58
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 1.96
+sys 0.56
+Running test - medium...
+real 2.06
+user 3.79
+sys 0.18
+Running test - big...
+real 7.03
+user 13.17
+sys 0.27
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.14
+sys 0.10
+Running test - medium...
+real 1.70
+user 6.04
+sys 0.14
+Running test - big...
+real 6.89
+user 13.70
+sys 0.34
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.24
+user 3.03
+sys 2.06
+Running test - medium...
+real 1.52
+user 6.22
+sys 0.26
+Running test - big...
+real 3.33
+user 14.26
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 11.94
+sys 0.11
+Running test - medium...
+real 1.13
+user 15.81
+sys 0.13
+Running test - big...
+real 3.20
+user 17.38
+sys 0.30
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.07
+user 3.22
+sys 6.33
+Running test - medium...
+real 1.83
+user 8.28
+sys 1.09
+Running test - big...
+real 2.37
+user 18.76
+sys 0.31
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.85
+user 53.28
+sys 0.11
+Running test - medium...
+real 1.20
+user 65.99
+sys 0.19
+Running test - big...
+real 2.24
+user 33.21
+sys 1.02
+
+test 24
+
+Running orginal z5...
+Running test - small...
+real 1.66
+user 1.57
+sys 0.08
+Running test - medium...
+real 7.25
+user 7.14
+sys 0.10
+Running test - big...
+real 38.90
+user 38.62
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.96
+user 0.84
+sys 0.12
+Running test - medium...
+real 2.52
+user 2.39
+sys 0.13
+Running test - big...
+real 11.10
+user 10.78
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 1.98
+sys 0.52
+Running test - medium...
+real 2.00
+user 3.69
+sys 0.18
+Running test - big...
+real 5.99
+user 11.26
+sys 0.27
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.18
+sys 0.11
+Running test - medium...
+real 1.57
+user 5.55
+sys 0.13
+Running test - big...
+real 5.83
+user 11.97
+sys 0.27
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.23
+user 3.24
+sys 1.99
+Running test - medium...
+real 1.43
+user 5.96
+sys 0.24
+Running test - big...
+real 2.97
+user 12.53
+sys 0.29
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.31
+sys 0.10
+Running test - medium...
+real 1.15
+user 15.92
+sys 0.11
+Running test - big...
+real 2.81
+user 15.69
+sys 0.33
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.12
+user 3.32
+sys 6.10
+Running test - medium...
+real 1.71
+user 8.02
+sys 0.82
+Running test - big...
+real 2.21
+user 19.19
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.94
+user 58.90
+sys 0.13
+Running test - medium...
+real 1.24
+user 62.51
+sys 0.20
+Running test - big...
+real 2.15
+user 34.45
+sys 0.29
+
+test 25
+
+Running orginal z5...
+Running test - small...
+real 1.65
+user 1.58
+sys 0.06
+Running test - medium...
+real 8.23
+user 8.10
+sys 0.12
+Running test - big...
+real 20.15
+user 19.88
+sys 0.25
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.79
+sys 0.13
+Running test - medium...
+real 2.80
+user 2.63
+sys 0.17
+Running test - big...
+real 6.23
+user 6.01
+sys 0.21
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 2.03
+sys 0.51
+Running test - medium...
+real 2.20
+user 4.05
+sys 0.18
+Running test - big...
+real 3.56
+user 6.49
+sys 0.20
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.11
+sys 0.08
+Running test - medium...
+real 1.77
+user 6.33
+sys 0.13
+Running test - big...
+real 3.36
+user 7.00
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.22
+user 2.91
+sys 2.15
+Running test - medium...
+real 1.62
+user 6.52
+sys 0.32
+Running test - big...
+real 1.89
+user 7.45
+sys 0.26
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.27
+sys 0.12
+Running test - medium...
+real 1.19
+user 16.41
+sys 0.14
+Running test - big...
+real 1.75
+user 10.56
+sys 0.20
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.02
+user 2.93
+sys 6.00
+Running test - medium...
+real 1.87
+user 8.45
+sys 0.93
+Running test - big...
+real 1.51
+user 9.14
+sys 0.29
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.41
+user 86.86
+sys 0.67
+Running test - medium...
+real 1.23
+user 66.54
+sys 0.31
+Running test - big...
+real 1.39
+user 23.87
+sys 0.21
+
+test 26
+
+Running orginal z5...
+Running test - small...
+real 1.58
+user 1.51
+sys 0.07
+Running test - medium...
+real 6.63
+user 6.54
+sys 0.09
+Running test - big...
+real 68.87
+user 68.64
+sys 0.21
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.88
+user 0.80
+sys 0.08
+Running test - medium...
+real 2.31
+user 2.20
+sys 0.11
+Running test - big...
+real 19.15
+user 18.89
+sys 0.24
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 1.94
+sys 0.50
+Running test - medium...
+real 1.91
+user 3.55
+sys 0.12
+Running test - big...
+real 10.30
+user 19.48
+sys 0.27
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.02
+sys 0.09
+Running test - medium...
+real 1.46
+user 5.39
+sys 0.07
+Running test - big...
+real 10.04
+user 19.95
+sys 0.31
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.02
+user 2.66
+sys 1.82
+Running test - medium...
+real 1.36
+user 5.74
+sys 0.20
+Running test - big...
+real 4.59
+user 20.50
+sys 0.23
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.71
+user 11.25
+sys 0.09
+Running test - medium...
+real 0.98
+user 14.16
+sys 0.05
+Running test - big...
+real 4.43
+user 24.13
+sys 0.20
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.03
+user 3.25
+sys 6.06
+Running test - medium...
+real 1.66
+user 7.95
+sys 0.84
+Running test - big...
+real 3.14
+user 26.99
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.87
+user 54.18
+sys 0.37
+Running test - medium...
+real 1.37
+user 73.80
+sys 0.44
+Running test - big...
+real 3.11
+user 42.52
+sys 0.95
+
+test 27
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.49
+sys 0.07
+Running test - medium...
+real 8.81
+user 8.62
+sys 0.18
+Running test - big...
+real 57.98
+user 57.67
+sys 0.28
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.87
+user 0.80
+sys 0.07
+Running test - medium...
+real 2.92
+user 2.72
+sys 0.19
+Running test - big...
+real 16.27
+user 15.93
+sys 0.33
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 2.03
+sys 0.41
+Running test - medium...
+real 2.23
+user 4.14
+sys 0.19
+Running test - big...
+real 8.42
+user 16.08
+sys 0.24
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.93
+sys 0.07
+Running test - medium...
+real 1.82
+user 6.36
+sys 0.14
+Running test - big...
+real 8.32
+user 16.76
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.71
+sys 1.87
+Running test - medium...
+real 1.67
+user 6.69
+sys 0.33
+Running test - big...
+real 3.94
+user 17.49
+sys 0.30
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.70
+user 11.06
+sys 0.08
+Running test - medium...
+real 1.23
+user 16.51
+sys 0.13
+Running test - big...
+real 3.72
+user 20.85
+sys 0.21
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.06
+user 2.88
+sys 6.03
+Running test - medium...
+real 1.89
+user 8.94
+sys 0.81
+Running test - big...
+real 2.79
+user 23.94
+sys 0.30
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.90
+user 55.75
+sys 0.41
+Running test - medium...
+real 1.19
+user 63.21
+sys 0.15
+Running test - big...
+real 2.72
+user 39.07
+sys 0.52
+
+test 28
+
+Running orginal z5...
+Running test - small...
+real 1.68
+user 1.59
+sys 0.09
+Running test - medium...
+real 8.29
+user 8.13
+sys 0.15
+Running test - big...
+real 48.12
+user 47.81
+sys 0.29
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.98
+user 0.83
+sys 0.14
+Running test - medium...
+real 2.82
+user 2.69
+sys 0.12
+Running test - big...
+real 13.48
+user 13.17
+sys 0.30
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 2.01
+sys 0.50
+Running test - medium...
+real 2.17
+user 4.06
+sys 0.17
+Running test - big...
+real 7.18
+user 13.72
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.87
+user 3.36
+sys 0.12
+Running test - medium...
+real 1.78
+user 6.35
+sys 0.14
+Running test - big...
+real 7.03
+user 14.31
+sys 0.30
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.28
+user 2.95
+sys 2.20
+Running test - medium...
+real 1.64
+user 6.81
+sys 0.27
+Running test - big...
+real 3.39
+user 14.92
+sys 0.30
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.20
+sys 0.12
+Running test - medium...
+real 1.17
+user 16.32
+sys 0.12
+Running test - big...
+real 3.25
+user 18.12
+sys 0.32
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 3.16
+sys 6.04
+Running test - medium...
+real 1.87
+user 8.70
+sys 0.94
+Running test - big...
+real 2.46
+user 21.00
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 2.13
+user 120.77
+sys 2.92
+Running test - medium...
+real 1.39
+user 75.50
+sys 0.34
+Running test - big...
+real 2.38
+user 34.44
+sys 1.46
+
+test 29
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.51
+sys 0.04
+Running test - medium...
+real 8.23
+user 8.15
+sys 0.07
+Running test - big...
+real 75.97
+user 75.68
+sys 0.27
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.87
+user 0.79
+sys 0.07
+Running test - medium...
+real 2.71
+user 2.60
+sys 0.10
+Running test - big...
+real 20.54
+user 20.28
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.50
+user 2.02
+sys 0.41
+Running test - medium...
+real 2.14
+user 4.05
+sys 0.12
+Running test - big...
+real 10.82
+user 20.82
+sys 0.23
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.97
+sys 0.04
+Running test - medium...
+real 1.69
+user 6.12
+sys 0.07
+Running test - big...
+real 10.56
+user 21.50
+sys 0.25
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.18
+user 3.00
+sys 1.84
+Running test - medium...
+real 1.53
+user 6.36
+sys 0.29
+Running test - big...
+real 4.79
+user 22.10
+sys 0.29
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.70
+user 11.13
+sys 0.07
+Running test - medium...
+real 1.10
+user 15.53
+sys 0.06
+Running test - big...
+real 4.61
+user 25.91
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.06
+user 3.27
+sys 6.33
+Running test - medium...
+real 1.89
+user 9.28
+sys 0.84
+Running test - big...
+real 3.24
+user 28.36
+sys 0.28
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.99
+user 60.84
+sys 0.27
+Running test - medium...
+real 1.15
+user 61.74
+sys 0.13
+Running test - big...
+real 3.20
+user 45.68
+sys 1.27
+
+test 30
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.54
+sys 0.09
+Running test - medium...
+real 6.91
+user 6.82
+sys 0.08
+Running test - big...
+real 41.50
+user 41.30
+sys 0.19
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.84
+sys 0.08
+Running test - medium...
+real 2.30
+user 2.19
+sys 0.10
+Running test - big...
+real 11.76
+user 11.58
+sys 0.17
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.54
+user 2.10
+sys 0.35
+Running test - medium...
+real 1.87
+user 3.53
+sys 0.10
+Running test - big...
+real 6.25
+user 11.76
+sys 0.22
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.11
+sys 0.05
+Running test - medium...
+real 1.42
+user 5.34
+sys 0.06
+Running test - big...
+real 6.05
+user 12.31
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.21
+user 3.20
+sys 2.07
+Running test - medium...
+real 1.36
+user 5.66
+sys 0.22
+Running test - big...
+real 2.99
+user 12.77
+sys 0.23
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.25
+sys 0.11
+Running test - medium...
+real 0.95
+user 14.02
+sys 0.07
+Running test - big...
+real 2.85
+user 15.83
+sys 0.23
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.93
+user 3.24
+sys 5.97
+Running test - medium...
+real 1.67
+user 8.07
+sys 0.83
+Running test - big...
+real 2.27
+user 15.81
+sys 0.27
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.23
+user 73.26
+sys 0.59
+Running test - medium...
+real 1.00
+user 56.46
+sys 0.12
+Running test - big...
+real 2.07
+user 30.29
+sys 0.44
+
+test 31
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.48
+sys 0.08
+Running test - medium...
+real 6.92
+user 6.83
+sys 0.09
+Running test - big...
+real 37.95
+user 37.68
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.83
+sys 0.05
+Running test - medium...
+real 2.38
+user 2.28
+sys 0.10
+Running test - big...
+real 10.30
+user 10.12
+sys 0.17
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.45
+user 1.84
+sys 0.47
+Running test - medium...
+real 1.86
+user 3.53
+sys 0.07
+Running test - big...
+real 5.53
+user 10.46
+sys 0.15
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.96
+sys 0.04
+Running test - medium...
+real 1.51
+user 5.57
+sys 0.08
+Running test - big...
+real 5.47
+user 11.15
+sys 0.17
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.18
+user 3.18
+sys 1.85
+Running test - medium...
+real 1.38
+user 5.70
+sys 0.20
+Running test - big...
+real 2.61
+user 11.39
+sys 0.12
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.71
+user 11.34
+sys 0.07
+Running test - medium...
+real 1.04
+user 15.02
+sys 0.08
+Running test - big...
+real 2.49
+user 14.51
+sys 0.17
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.93
+user 3.22
+sys 5.74
+Running test - medium...
+real 1.64
+user 7.46
+sys 0.94
+Running test - big...
+real 1.95
+user 13.80
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.97
+user 114.67
+sys 2.35
+Running test - medium...
+real 1.19
+user 67.33
+sys 0.10
+Running test - big...
+real 1.85
+user 28.70
+sys 0.19
+
+test 32
+
+Running orginal z5...
+Running test - small...
+real 1.71
+user 1.61
+sys 0.10
+Running test - medium...
+real 8.14
+user 8.02
+sys 0.12
+Running test - big...
+real 63.31
+user 62.91
+sys 0.38
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.99
+user 0.87
+sys 0.12
+Running test - medium...
+real 2.76
+user 2.60
+sys 0.15
+Running test - big...
+real 17.75
+user 17.35
+sys 0.39
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.65
+user 2.04
+sys 0.48
+Running test - medium...
+real 2.23
+user 4.06
+sys 0.20
+Running test - big...
+real 9.35
+user 17.74
+sys 0.36
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.85
+user 3.27
+sys 0.13
+Running test - medium...
+real 1.75
+user 6.18
+sys 0.15
+Running test - big...
+real 9.27
+user 18.52
+sys 0.38
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.16
+user 2.84
+sys 1.95
+Running test - medium...
+real 1.63
+user 6.58
+sys 0.27
+Running test - big...
+real 4.38
+user 19.06
+sys 0.35
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.79
+user 12.45
+sys 0.10
+Running test - medium...
+real 1.17
+user 16.03
+sys 0.14
+Running test - big...
+real 4.19
+user 22.47
+sys 0.42
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.94
+user 2.91
+sys 5.91
+Running test - medium...
+real 1.86
+user 8.97
+sys 0.86
+Running test - big...
+real 3.07
+user 26.51
+sys 0.46
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.96
+user 60.64
+sys 0.13
+Running test - medium...
+real 1.23
+user 65.22
+sys 0.49
+Running test - big...
+real 2.96
+user 40.24
+sys 1.37
+
+test 33
+
+Running orginal z5...
+Running test - small...
+real 1.53
+user 1.47
+sys 0.05
+Running test - medium...
+real 7.15
+user 7.01
+sys 0.13
+Running test - big...
+real 67.34
+user 66.97
+sys 0.35
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.86
+user 0.79
+sys 0.06
+Running test - medium...
+real 2.47
+user 2.33
+sys 0.13
+Running test - big...
+real 19.42
+user 19.14
+sys 0.26
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.61
+user 1.97
+sys 0.55
+Running test - medium...
+real 2.04
+user 3.71
+sys 0.19
+Running test - big...
+real 10.49
+user 19.74
+sys 0.41
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.95
+sys 0.06
+Running test - medium...
+real 1.56
+user 5.51
+sys 0.12
+Running test - big...
+real 10.10
+user 20.18
+sys 0.37
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.12
+user 2.60
+sys 1.96
+Running test - medium...
+real 1.43
+user 5.81
+sys 0.28
+Running test - big...
+real 4.55
+user 20.38
+sys 0.32
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.70
+user 11.10
+sys 0.06
+Running test - medium...
+real 1.07
+user 14.60
+sys 0.14
+Running test - big...
+real 4.91
+user 25.52
+sys 0.34
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.90
+user 3.19
+sys 5.79
+Running test - medium...
+real 1.72
+user 7.63
+sys 1.00
+Running test - big...
+real 2.97
+user 26.40
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.90
+user 55.84
+sys 0.16
+Running test - medium...
+real 1.10
+user 60.24
+sys 0.17
+Running test - big...
+real 2.84
+user 41.47
+sys 1.00
+
+test 34
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.50
+sys 0.12
+Running test - medium...
+real 7.30
+user 7.18
+sys 0.11
+Running test - big...
+real 74.69
+user 74.35
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.82
+sys 0.12
+Running test - medium...
+real 2.48
+user 2.37
+sys 0.11
+Running test - big...
+real 20.66
+user 20.19
+sys 0.45
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.63
+user 2.19
+sys 0.45
+Running test - medium...
+real 1.93
+user 3.60
+sys 0.15
+Running test - big...
+real 11.00
+user 20.75
+sys 0.40
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.20
+sys 0.07
+Running test - medium...
+real 1.57
+user 5.71
+sys 0.13
+Running test - big...
+real 10.75
+user 21.35
+sys 0.42
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.16
+user 2.99
+sys 2.04
+Running test - medium...
+real 1.47
+user 5.98
+sys 0.24
+Running test - big...
+real 4.96
+user 21.78
+sys 0.45
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.20
+sys 0.09
+Running test - medium...
+real 1.07
+user 15.13
+sys 0.14
+Running test - big...
+real 4.78
+user 25.76
+sys 0.43
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.15
+user 3.39
+sys 6.14
+Running test - medium...
+real 1.72
+user 7.80
+sys 0.92
+Running test - big...
+real 3.44
+user 27.95
+sys 0.44
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.28
+user 77.13
+sys 0.64
+Running test - medium...
+real 1.09
+user 59.94
+sys 0.50
+Running test - big...
+real 3.21
+user 43.40
+sys 1.44
+
+test 35
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.54
+sys 0.03
+Running test - medium...
+real 7.65
+user 7.57
+sys 0.07
+Running test - big...
+real 75.48
+user 75.27
+sys 0.19
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.82
+sys 0.06
+Running test - medium...
+real 2.55
+user 2.47
+sys 0.07
+Running test - big...
+real 20.75
+user 20.53
+sys 0.20
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.50
+user 1.90
+sys 0.46
+Running test - medium...
+real 1.99
+user 3.76
+sys 0.10
+Running test - big...
+real 11.02
+user 21.17
+sys 0.23
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.76
+user 2.96
+sys 0.07
+Running test - medium...
+real 1.59
+user 5.85
+sys 0.04
+Running test - big...
+real 10.96
+user 22.18
+sys 0.21
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.80
+sys 1.79
+Running test - medium...
+real 1.53
+user 6.03
+sys 0.26
+Running test - big...
+real 5.24
+user 25.00
+sys 0.34
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.40
+sys 0.08
+Running test - medium...
+real 1.11
+user 16.00
+sys 0.08
+Running test - big...
+real 4.97
+user 27.21
+sys 0.38
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.78
+user 3.21
+sys 6.13
+Running test - medium...
+real 1.72
+user 7.89
+sys 0.93
+Running test - big...
+real 3.21
+user 31.15
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.93
+user 58.56
+sys 0.26
+Running test - medium...
+real 1.36
+user 73.51
+sys 0.45
+Running test - big...
+real 2.97
+user 44.44
+sys 0.27
+
+test 36
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.56
+sys 0.05
+Running test - medium...
+real 8.33
+user 8.24
+sys 0.09
+Running test - big...
+real 27.78
+user 27.62
+sys 0.15
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.86
+sys 0.05
+Running test - medium...
+real 2.80
+user 2.71
+sys 0.09
+Running test - big...
+real 8.17
+user 8.06
+sys 0.11
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.59
+user 2.10
+sys 0.42
+Running test - medium...
+real 2.17
+user 4.02
+sys 0.17
+Running test - big...
+real 4.48
+user 8.58
+sys 0.16
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.03
+sys 0.08
+Running test - medium...
+real 1.73
+user 6.31
+sys 0.10
+Running test - big...
+real 4.34
+user 9.19
+sys 0.15
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.17
+user 2.88
+sys 1.97
+Running test - medium...
+real 1.53
+user 6.49
+sys 0.25
+Running test - big...
+real 2.25
+user 9.75
+sys 0.18
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.21
+sys 0.07
+Running test - medium...
+real 1.13
+user 16.23
+sys 0.06
+Running test - big...
+real 2.05
+user 13.08
+sys 0.17
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.94
+user 3.09
+sys 6.00
+Running test - medium...
+real 1.90
+user 9.26
+sys 0.83
+Running test - big...
+real 1.61
+user 13.58
+sys 0.20
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.81
+user 106.52
+sys 1.44
+Running test - medium...
+real 1.38
+user 77.39
+sys 0.15
+Running test - big...
+real 1.64
+user 28.48
+sys 1.09
+
+test 37
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.51
+sys 0.11
+Running test - medium...
+real 6.91
+user 6.84
+sys 0.06
+Running test - big...
+real 102.00
+user 101.58
+sys 0.38
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.86
+sys 0.04
+Running test - medium...
+real 2.31
+user 2.22
+sys 0.09
+Running test - big...
+real 28.21
+user 27.90
+sys 0.29
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.59
+user 2.09
+sys 0.51
+Running test - medium...
+real 1.81
+user 3.44
+sys 0.13
+Running test - big...
+real 14.75
+user 27.96
+sys 0.39
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.04
+sys 0.11
+Running test - medium...
+real 1.44
+user 5.38
+sys 0.06
+Running test - big...
+real 14.63
+user 29.07
+sys 0.32
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.08
+user 2.91
+sys 2.02
+Running test - medium...
+real 1.36
+user 5.70
+sys 0.22
+Running test - big...
+real 6.09
+user 28.81
+sys 0.32
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.89
+sys 0.10
+Running test - medium...
+real 0.95
+user 13.95
+sys 0.09
+Running test - big...
+real 5.93
+user 33.37
+sys 0.35
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.08
+user 3.22
+sys 6.00
+Running test - medium...
+real 1.62
+user 7.47
+sys 0.79
+Running test - big...
+real 3.90
+user 38.49
+sys 0.37
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.20
+user 75.01
+sys 0.48
+Running test - medium...
+real 0.92
+user 52.61
+sys 0.19
+Running test - big...
+real 3.70
+user 52.42
+sys 1.24
+
+test 38
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.51
+sys 0.12
+Running test - medium...
+real 7.97
+user 7.84
+sys 0.13
+Running test - big...
+real 54.46
+user 54.15
+sys 0.29
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.85
+sys 0.08
+Running test - medium...
+real 2.71
+user 2.57
+sys 0.14
+Running test - big...
+real 14.60
+user 14.24
+sys 0.35
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 2.01
+sys 0.51
+Running test - medium...
+real 2.06
+user 3.85
+sys 0.15
+Running test - big...
+real 7.83
+user 14.47
+sys 0.36
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.14
+sys 0.08
+Running test - medium...
+real 1.71
+user 6.16
+sys 0.13
+Running test - big...
+real 7.70
+user 15.25
+sys 0.35
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.04
+user 2.97
+sys 1.92
+Running test - medium...
+real 1.50
+user 6.32
+sys 0.28
+Running test - big...
+real 3.74
+user 15.54
+sys 0.35
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.03
+sys 0.13
+Running test - medium...
+real 1.13
+user 15.89
+sys 0.21
+Running test - big...
+real 3.60
+user 18.76
+sys 0.42
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.93
+user 3.40
+sys 6.20
+Running test - medium...
+real 1.90
+user 9.14
+sys 0.85
+Running test - big...
+real 2.68
+user 19.10
+sys 0.43
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.06
+user 66.09
+sys 0.25
+Running test - medium...
+real 1.16
+user 63.90
+sys 0.17
+Running test - big...
+real 2.60
+user 35.59
+sys 0.42
+
+test 39
+
+Running orginal z5...
+Running test - small...
+real 1.60
+user 1.53
+sys 0.06
+Running test - medium...
+real 7.72
+user 7.61
+sys 0.10
+Running test - big...
+real 52.55
+user 52.24
+sys 0.29
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.90
+user 0.82
+sys 0.07
+Running test - medium...
+real 2.59
+user 2.47
+sys 0.12
+Running test - big...
+real 14.79
+user 14.53
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 2.03
+sys 0.41
+Running test - medium...
+real 2.00
+user 3.73
+sys 0.14
+Running test - big...
+real 7.75
+user 15.02
+sys 0.24
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 3.01
+sys 0.06
+Running test - medium...
+real 1.63
+user 5.93
+sys 0.10
+Running test - big...
+real 7.70
+user 15.80
+sys 0.17
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.23
+user 2.86
+sys 1.97
+Running test - medium...
+real 1.52
+user 6.17
+sys 0.24
+Running test - big...
+real 3.53
+user 16.18
+sys 0.17
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.62
+sys 0.10
+Running test - medium...
+real 1.08
+user 15.44
+sys 0.08
+Running test - big...
+real 3.37
+user 19.61
+sys 0.19
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.11
+user 3.33
+sys 6.22
+Running test - medium...
+real 1.79
+user 8.37
+sys 0.96
+Running test - big...
+real 2.39
+user 22.60
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.08
+user 65.20
+sys 0.73
+Running test - medium...
+real 1.23
+user 66.00
+sys 0.63
+Running test - big...
+real 2.33
+user 36.95
+sys 0.70
+
+test 40
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.51
+sys 0.05
+Running test - medium...
+real 6.09
+user 5.99
+sys 0.09
+Running test - big...
+real 70.16
+user 69.97
+sys 0.17
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.78
+sys 0.10
+Running test - medium...
+real 2.13
+user 2.05
+sys 0.07
+Running test - big...
+real 19.25
+user 19.04
+sys 0.20
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 2.03
+sys 0.38
+Running test - medium...
+real 1.73
+user 3.19
+sys 0.12
+Running test - big...
+real 10.37
+user 19.71
+sys 0.28
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 3.00
+sys 0.06
+Running test - medium...
+real 1.34
+user 4.99
+sys 0.07
+Running test - big...
+real 10.02
+user 20.21
+sys 0.23
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.93
+sys 1.88
+Running test - medium...
+real 1.36
+user 5.29
+sys 0.22
+Running test - big...
+real 4.35
+user 20.64
+sys 0.20
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.90
+sys 0.09
+Running test - medium...
+real 0.93
+user 13.76
+sys 0.09
+Running test - big...
+real 4.28
+user 24.32
+sys 0.21
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.16
+user 3.27
+sys 6.45
+Running test - medium...
+real 1.62
+user 7.28
+sys 0.82
+Running test - big...
+real 2.94
+user 27.66
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.97
+user 61.27
+sys 0.23
+Running test - medium...
+real 1.33
+user 74.72
+sys 0.19
+Running test - big...
+real 3.03
+user 43.28
+sys 0.42
+
+test 41
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.53
+sys 0.08
+Running test - medium...
+real 7.15
+user 7.06
+sys 0.09
+Running test - big...
+real 45.38
+user 45.20
+sys 0.17
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.83
+sys 0.07
+Running test - medium...
+real 2.41
+user 2.34
+sys 0.06
+Running test - big...
+real 12.74
+user 12.48
+sys 0.24
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 1.93
+sys 0.50
+Running test - medium...
+real 1.96
+user 3.70
+sys 0.10
+Running test - big...
+real 6.83
+user 12.98
+sys 0.21
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.06
+sys 0.06
+Running test - medium...
+real 1.52
+user 5.46
+sys 0.10
+Running test - big...
+real 6.74
+user 13.76
+sys 0.20
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.06
+user 2.84
+sys 1.81
+Running test - medium...
+real 1.47
+user 5.83
+sys 0.24
+Running test - big...
+real 3.29
+user 14.12
+sys 0.21
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.05
+sys 0.08
+Running test - medium...
+real 1.00
+user 14.18
+sys 0.09
+Running test - big...
+real 3.06
+user 17.30
+sys 0.14
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.91
+user 3.40
+sys 6.17
+Running test - medium...
+real 1.68
+user 8.17
+sys 0.90
+Running test - big...
+real 2.29
+user 18.91
+sys 0.20
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.03
+user 63.71
+sys 0.27
+Running test - medium...
+real 1.24
+user 67.91
+sys 0.52
+Running test - big...
+real 2.32
+user 34.29
+sys 0.55
+
+test 42
+
+Running orginal z5...
+Running test - small...
+real 1.64
+user 1.53
+sys 0.11
+Running test - medium...
+real 8.06
+user 7.90
+sys 0.15
+Running test - big...
+real 84.11
+user 83.72
+sys 0.38
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.97
+user 0.88
+sys 0.08
+Running test - medium...
+real 2.77
+user 2.60
+sys 0.16
+Running test - big...
+real 22.91
+user 22.44
+sys 0.46
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.58
+user 2.00
+sys 0.52
+Running test - medium...
+real 2.31
+user 4.18
+sys 0.18
+Running test - big...
+real 12.11
+user 22.92
+sys 0.43
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.83
+user 3.22
+sys 0.09
+Running test - medium...
+real 1.74
+user 6.22
+sys 0.15
+Running test - big...
+real 11.98
+user 23.66
+sys 0.43
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.26
+user 2.99
+sys 2.13
+Running test - medium...
+real 1.60
+user 6.26
+sys 0.35
+Running test - big...
+real 5.26
+user 24.02
+sys 0.38
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.79
+user 12.44
+sys 0.17
+Running test - medium...
+real 1.18
+user 16.28
+sys 0.17
+Running test - big...
+real 5.14
+user 27.64
+sys 0.43
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.87
+user 3.09
+sys 6.17
+Running test - medium...
+real 1.77
+user 8.05
+sys 0.98
+Running test - big...
+real 3.45
+user 31.23
+sys 0.53
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.28
+user 78.05
+sys 0.95
+Running test - medium...
+real 1.27
+user 67.27
+sys 0.15
+Running test - big...
+real 3.26
+user 46.86
+sys 0.63
+
+test 43
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.51
+sys 0.06
+Running test - medium...
+real 6.61
+user 6.50
+sys 0.10
+Running test - big...
+real 38.05
+user 37.74
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.85
+sys 0.04
+Running test - medium...
+real 2.23
+user 2.13
+sys 0.10
+Running test - big...
+real 9.94
+user 9.62
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.50
+user 2.00
+sys 0.41
+Running test - medium...
+real 1.83
+user 3.41
+sys 0.13
+Running test - big...
+real 5.80
+user 10.45
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.95
+sys 0.06
+Running test - medium...
+real 1.40
+user 5.11
+sys 0.08
+Running test - big...
+real 5.30
+user 10.82
+sys 0.16
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.13
+user 2.74
+sys 2.06
+Running test - medium...
+real 1.35
+user 5.54
+sys 0.21
+Running test - big...
+real 2.75
+user 11.22
+sys 0.20
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.60
+sys 0.14
+Running test - medium...
+real 0.98
+user 13.77
+sys 0.14
+Running test - big...
+real 2.61
+user 14.26
+sys 0.16
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.87
+user 3.18
+sys 6.01
+Running test - medium...
+real 1.67
+user 7.52
+sys 0.98
+Running test - big...
+real 2.01
+user 15.03
+sys 0.20
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.87
+user 54.63
+sys 0.10
+Running test - medium...
+real 0.99
+user 54.13
+sys 0.15
+Running test - big...
+real 1.97
+user 28.76
+sys 0.20
+
+test 44
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.43
+sys 0.11
+Running test - medium...
+real 8.34
+user 8.24
+sys 0.09
+Running test - big...
+real 36.13
+user 35.85
+sys 0.27
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.80
+sys 0.12
+Running test - medium...
+real 2.79
+user 2.65
+sys 0.13
+Running test - big...
+real 10.10
+user 9.87
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 2.01
+sys 0.49
+Running test - medium...
+real 2.17
+user 4.01
+sys 0.20
+Running test - big...
+real 5.51
+user 10.34
+sys 0.22
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.05
+sys 0.11
+Running test - medium...
+real 1.74
+user 6.22
+sys 0.13
+Running test - big...
+real 5.33
+user 10.85
+sys 0.27
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.08
+user 2.84
+sys 2.10
+Running test - medium...
+real 1.56
+user 6.33
+sys 0.30
+Running test - big...
+real 2.70
+user 11.34
+sys 0.27
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.10
+sys 0.09
+Running test - medium...
+real 1.17
+user 16.13
+sys 0.15
+Running test - big...
+real 2.56
+user 14.15
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.99
+user 3.04
+sys 5.91
+Running test - medium...
+real 1.81
+user 8.59
+sys 0.88
+Running test - big...
+real 2.06
+user 14.34
+sys 0.33
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.62
+user 98.44
+sys 0.92
+Running test - medium...
+real 1.51
+user 80.32
+sys 0.27
+Running test - big...
+real 1.90
+user 28.98
+sys 0.29
+
+test 45
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.52
+sys 0.09
+Running test - medium...
+real 7.43
+user 7.26
+sys 0.16
+Running test - big...
+real 95.50
+user 95.03
+sys 0.43
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.83
+sys 0.09
+Running test - medium...
+real 2.55
+user 2.39
+sys 0.15
+Running test - big...
+real 27.10
+user 26.52
+sys 0.56
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.54
+user 1.99
+sys 0.45
+Running test - medium...
+real 2.00
+user 3.69
+sys 0.16
+Running test - big...
+real 13.49
+user 25.79
+sys 0.40
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.07
+sys 0.12
+Running test - medium...
+real 1.62
+user 5.78
+sys 0.18
+Running test - big...
+real 13.51
+user 26.84
+sys 0.39
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.25
+user 2.98
+sys 2.15
+Running test - medium...
+real 1.49
+user 6.01
+sys 0.35
+Running test - big...
+real 5.70
+user 27.25
+sys 0.32
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.63
+sys 0.14
+Running test - medium...
+real 1.09
+user 15.52
+sys 0.11
+Running test - big...
+real 5.58
+user 30.84
+sys 0.40
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 3.31
+sys 6.30
+Running test - medium...
+real 1.74
+user 8.44
+sys 0.91
+Running test - big...
+real 3.67
+user 35.48
+sys 0.47
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.25
+user 74.61
+sys 0.63
+Running test - medium...
+real 1.28
+user 70.69
+sys 0.15
+Running test - big...
+real 3.48
+user 50.80
+sys 0.48
+
+test 46
+
+Running orginal z5...
+Running test - small...
+real 1.51
+user 1.45
+sys 0.06
+Running test - medium...
+real 7.21
+user 7.12
+sys 0.08
+Running test - big...
+real 85.86
+user 85.56
+sys 0.27
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.85
+user 0.77
+sys 0.08
+Running test - medium...
+real 2.37
+user 2.25
+sys 0.11
+Running test - big...
+real 23.13
+user 22.73
+sys 0.39
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.51
+user 2.07
+sys 0.38
+Running test - medium...
+real 1.86
+user 3.54
+sys 0.11
+Running test - big...
+real 12.34
+user 23.17
+sys 0.43
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.73
+user 2.86
+sys 0.06
+Running test - medium...
+real 1.49
+user 5.40
+sys 0.10
+Running test - big...
+real 12.12
+user 24.02
+sys 0.33
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.04
+user 2.93
+sys 1.84
+Running test - medium...
+real 1.44
+user 5.99
+sys 0.21
+Running test - big...
+real 5.65
+user 24.60
+sys 0.41
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.68
+user 10.82
+sys 0.09
+Running test - medium...
+real 0.98
+user 14.17
+sys 0.06
+Running test - big...
+real 5.30
+user 28.44
+sys 0.43
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.95
+user 3.11
+sys 6.08
+Running test - medium...
+real 1.71
+user 8.36
+sys 1.07
+Running test - big...
+real 3.75
+user 33.62
+sys 0.49
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.04
+user 63.97
+sys 0.32
+Running test - medium...
+real 1.18
+user 64.39
+sys 0.17
+Running test - big...
+real 3.53
+user 49.37
+sys 1.34
+
+test 47
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.51
+sys 0.09
+Running test - medium...
+real 7.20
+user 7.06
+sys 0.13
+Running test - big...
+real 41.25
+user 41.02
+sys 0.21
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.82
+sys 0.12
+Running test - medium...
+real 2.46
+user 2.32
+sys 0.13
+Running test - big...
+real 11.77
+user 11.42
+sys 0.34
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 1.99
+sys 0.48
+Running test - medium...
+real 2.02
+user 3.71
+sys 0.17
+Running test - big...
+real 6.41
+user 12.06
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.11
+sys 0.13
+Running test - medium...
+real 1.59
+user 5.73
+sys 0.13
+Running test - big...
+real 6.92
+user 13.48
+sys 0.32
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.21
+user 2.99
+sys 1.76
+Running test - medium...
+real 1.51
+user 6.03
+sys 0.28
+Running test - big...
+real 3.03
+user 13.14
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.27
+sys 0.11
+Running test - medium...
+real 1.08
+user 15.08
+sys 0.16
+Running test - big...
+real 2.92
+user 16.89
+sys 0.20
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.12
+user 3.40
+sys 6.03
+Running test - medium...
+real 1.75
+user 8.04
+sys 1.02
+Running test - big...
+real 2.24
+user 17.34
+sys 0.30
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.47
+user 87.09
+sys 0.68
+Running test - medium...
+real 1.24
+user 67.56
+sys 0.29
+Running test - big...
+real 2.11
+user 32.38
+sys 0.89
+
+test 48
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.54
+sys 0.08
+Running test - medium...
+real 8.23
+user 8.10
+sys 0.12
+Running test - big...
+real 52.20
+user 51.93
+sys 0.24
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.80
+sys 0.13
+Running test - medium...
+real 2.78
+user 2.66
+sys 0.11
+Running test - big...
+real 14.77
+user 14.45
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 1.95
+sys 0.49
+Running test - medium...
+real 2.19
+user 3.99
+sys 0.22
+Running test - big...
+real 7.77
+user 14.65
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.05
+sys 0.15
+Running test - medium...
+real 1.76
+user 6.23
+sys 0.14
+Running test - big...
+real 7.63
+user 15.49
+sys 0.28
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.12
+user 2.80
+sys 1.96
+Running test - medium...
+real 1.58
+user 6.49
+sys 0.32
+Running test - big...
+real 3.62
+user 15.90
+sys 0.22
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 11.95
+sys 0.09
+Running test - medium...
+real 1.19
+user 16.38
+sys 0.16
+Running test - big...
+real 3.44
+user 19.05
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.04
+user 3.07
+sys 6.05
+Running test - medium...
+real 1.83
+user 8.64
+sys 0.91
+Running test - big...
+real 2.59
+user 20.05
+sys 0.39
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.98
+user 60.77
+sys 0.14
+Running test - medium...
+real 1.22
+user 64.69
+sys 0.35
+Running test - big...
+real 2.42
+user 34.68
+sys 1.44
+
+test 49
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.52
+sys 0.09
+Running test - medium...
+real 7.96
+user 7.80
+sys 0.15
+Running test - big...
+real 59.90
+user 59.56
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.84
+sys 0.10
+Running test - medium...
+real 2.71
+user 2.60
+sys 0.10
+Running test - big...
+real 17.25
+user 16.91
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 1.94
+sys 0.49
+Running test - medium...
+real 2.15
+user 3.91
+sys 0.21
+Running test - big...
+real 9.16
+user 17.15
+sys 0.38
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.13
+sys 0.12
+Running test - medium...
+real 1.73
+user 6.35
+sys 0.12
+Running test - big...
+real 9.09
+user 18.05
+sys 0.33
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.31
+user 2.99
+sys 1.92
+Running test - medium...
+real 1.69
+user 6.59
+sys 0.26
+Running test - big...
+real 4.25
+user 18.73
+sys 0.40
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.15
+sys 0.12
+Running test - medium...
+real 1.17
+user 16.77
+sys 0.13
+Running test - big...
+real 4.38
+user 22.90
+sys 0.36
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.13
+user 3.06
+sys 6.12
+Running test - medium...
+real 1.89
+user 7.90
+sys 0.91
+Running test - big...
+real 2.95
+user 24.89
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.47
+user 87.42
+sys 1.08
+Running test - medium...
+real 1.42
+user 79.16
+sys 0.42
+Running test - big...
+real 2.77
+user 39.27
+sys 0.33
+
+test 50
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.54
+sys 0.08
+Running test - medium...
+real 7.47
+user 7.32
+sys 0.13
+Running test - big...
+real 30.92
+user 30.60
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.86
+sys 0.08
+Running test - medium...
+real 2.57
+user 2.40
+sys 0.16
+Running test - big...
+real 8.83
+user 8.54
+sys 0.28
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.62
+user 2.02
+sys 0.47
+Running test - medium...
+real 2.12
+user 3.87
+sys 0.20
+Running test - big...
+real 4.97
+user 9.00
+sys 0.29
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.15
+sys 0.09
+Running test - medium...
+real 1.63
+user 5.94
+sys 0.13
+Running test - big...
+real 4.79
+user 9.59
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.12
+user 2.66
+sys 1.92
+Running test - medium...
+real 1.44
+user 5.98
+sys 0.37
+Running test - big...
+real 2.61
+user 10.14
+sys 0.25
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.80
+user 12.61
+sys 0.09
+Running test - medium...
+real 1.18
+user 16.84
+sys 0.10
+Running test - big...
+real 2.48
+user 13.21
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.10
+user 3.33
+sys 6.07
+Running test - medium...
+real 1.77
+user 8.08
+sys 0.83
+Running test - big...
+real 2.01
+user 12.66
+sys 0.31
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.38
+user 83.73
+sys 1.05
+Running test - medium...
+real 1.37
+user 76.85
+sys 0.26
+Running test - big...
+real 1.98
+user 28.01
+sys 0.23
+
+test 51
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.48
+sys 0.07
+Running test - medium...
+real 6.69
+user 6.58
+sys 0.11
+Running test - big...
+real 43.63
+user 43.30
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.79
+sys 0.12
+Running test - medium...
+real 2.33
+user 2.21
+sys 0.11
+Running test - big...
+real 12.35
+user 12.04
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.59
+user 2.07
+sys 0.45
+Running test - medium...
+real 1.96
+user 3.52
+sys 0.19
+Running test - big...
+real 6.61
+user 12.47
+sys 0.30
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.07
+sys 0.09
+Running test - medium...
+real 1.48
+user 5.41
+sys 0.13
+Running test - big...
+real 6.41
+user 13.16
+sys 0.27
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.22
+user 2.78
+sys 2.13
+Running test - medium...
+real 1.43
+user 5.30
+sys 0.29
+Running test - big...
+real 3.12
+user 13.58
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.85
+sys 0.12
+Running test - medium...
+real 1.05
+user 15.27
+sys 0.10
+Running test - big...
+real 3.00
+user 17.26
+sys 0.32
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.10
+user 3.10
+sys 6.02
+Running test - medium...
+real 1.64
+user 6.99
+sys 0.82
+Running test - big...
+real 2.26
+user 17.32
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.93
+user 58.18
+sys 0.10
+Running test - medium...
+real 1.28
+user 69.13
+sys 0.57
+Running test - big...
+real 2.07
+user 31.90
+sys 0.97
+
+test 52
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.54
+sys 0.08
+Running test - medium...
+real 8.71
+user 8.58
+sys 0.13
+Running test - big...
+real 77.73
+user 77.34
+sys 0.37
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.80
+sys 0.15
+Running test - medium...
+real 3.01
+user 2.86
+sys 0.15
+Running test - big...
+real 20.91
+user 20.58
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.54
+user 2.00
+sys 0.44
+Running test - medium...
+real 2.43
+user 4.48
+sys 0.19
+Running test - big...
+real 13.24
+user 23.75
+sys 0.47
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.14
+sys 0.12
+Running test - medium...
+real 1.88
+user 6.75
+sys 0.13
+Running test - big...
+real 10.93
+user 21.69
+sys 0.43
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.25
+user 2.78
+sys 2.08
+Running test - medium...
+real 1.81
+user 7.13
+sys 0.33
+Running test - big...
+real 5.03
+user 21.99
+sys 0.45
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 11.89
+sys 0.16
+Running test - medium...
+real 1.32
+user 18.40
+sys 0.17
+Running test - big...
+real 4.90
+user 26.05
+sys 0.43
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.04
+user 3.47
+sys 6.15
+Running test - medium...
+real 1.95
+user 9.00
+sys 0.93
+Running test - big...
+real 3.48
+user 28.33
+sys 0.54
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.94
+user 58.55
+sys 0.08
+Running test - medium...
+real 1.42
+user 73.61
+sys 0.24
+Running test - big...
+real 3.26
+user 43.47
+sys 1.47
+
+test 53
+
+Running orginal z5...
+Running test - small...
+real 1.64
+user 1.54
+sys 0.10
+Running test - medium...
+real 8.77
+user 8.62
+sys 0.14
+Running test - big...
+real 79.03
+user 78.69
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.95
+user 0.82
+sys 0.13
+Running test - medium...
+real 2.93
+user 2.74
+sys 0.18
+Running test - big...
+real 21.51
+user 21.10
+sys 0.38
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 1.99
+sys 0.49
+Running test - medium...
+real 2.28
+user 4.17
+sys 0.23
+Running test - big...
+real 11.67
+user 21.60
+sys 0.36
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.12
+sys 0.13
+Running test - medium...
+real 1.83
+user 6.56
+sys 0.15
+Running test - big...
+real 11.27
+user 21.88
+sys 0.39
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.22
+user 3.07
+sys 2.05
+Running test - medium...
+real 1.70
+user 6.85
+sys 0.31
+Running test - big...
+real 4.84
+user 22.24
+sys 0.41
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.99
+sys 0.09
+Running test - medium...
+real 1.23
+user 17.13
+sys 0.18
+Running test - big...
+real 4.65
+user 25.48
+sys 0.37
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.97
+user 3.03
+sys 6.05
+Running test - medium...
+real 1.95
+user 9.29
+sys 1.05
+Running test - big...
+real 3.12
+user 29.84
+sys 0.47
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.48
+user 88.79
+sys 0.89
+Running test - medium...
+real 1.22
+user 66.83
+sys 0.34
+Running test - big...
+real 2.96
+user 43.90
+sys 0.91
+
+test 54
+
+Running orginal z5...
+Running test - small...
+real 1.71
+user 1.59
+sys 0.12
+Running test - medium...
+real 8.11
+user 7.97
+sys 0.13
+Running test - big...
+real 51.26
+user 50.97
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.98
+user 0.89
+sys 0.09
+Running test - medium...
+real 2.76
+user 2.60
+sys 0.16
+Running test - big...
+real 14.08
+user 13.78
+sys 0.29
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.61
+user 2.06
+sys 0.49
+Running test - medium...
+real 2.10
+user 3.92
+sys 0.18
+Running test - big...
+real 7.60
+user 14.27
+sys 0.35
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.84
+user 3.28
+sys 0.10
+Running test - medium...
+real 1.75
+user 6.30
+sys 0.12
+Running test - big...
+real 7.52
+user 14.92
+sys 0.37
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.24
+user 2.94
+sys 2.06
+Running test - medium...
+real 1.57
+user 6.65
+sys 0.24
+Running test - big...
+real 3.56
+user 15.69
+sys 0.29
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.81
+user 12.80
+sys 0.12
+Running test - medium...
+real 1.17
+user 16.48
+sys 0.14
+Running test - big...
+real 3.54
+user 19.61
+sys 0.27
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.99
+user 2.95
+sys 5.67
+Running test - medium...
+real 1.87
+user 9.01
+sys 0.92
+Running test - big...
+real 2.49
+user 21.87
+sys 0.40
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.41
+user 83.50
+sys 0.89
+Running test - medium...
+real 1.60
+user 88.72
+sys 0.31
+Running test - big...
+real 2.38
+user 36.04
+sys 1.29
+
+test 55
+
+Running orginal z5...
+Running test - small...
+real 1.66
+user 1.53
+sys 0.12
+Running test - medium...
+real 8.18
+user 8.05
+sys 0.12
+Running test - big...
+real 34.45
+user 34.25
+sys 0.17
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.96
+user 0.85
+sys 0.10
+Running test - medium...
+real 2.74
+user 2.58
+sys 0.16
+Running test - big...
+real 9.98
+user 9.74
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 2.07
+sys 0.48
+Running test - medium...
+real 2.20
+user 4.03
+sys 0.17
+Running test - big...
+real 5.42
+user 10.29
+sys 0.24
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.83
+user 3.21
+sys 0.10
+Running test - medium...
+real 1.73
+user 6.27
+sys 0.15
+Running test - big...
+real 5.24
+user 11.07
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.19
+user 3.09
+sys 2.08
+Running test - medium...
+real 1.59
+user 6.40
+sys 0.28
+Running test - big...
+real 2.64
+user 11.44
+sys 0.26
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.12
+sys 0.13
+Running test - medium...
+real 1.16
+user 16.62
+sys 0.13
+Running test - big...
+real 2.47
+user 14.74
+sys 0.20
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.98
+user 3.21
+sys 6.03
+Running test - medium...
+real 1.83
+user 8.26
+sys 0.97
+Running test - big...
+real 1.97
+user 16.10
+sys 0.27
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.64
+user 96.60
+sys 1.11
+Running test - medium...
+real 1.36
+user 75.55
+sys 0.29
+Running test - big...
+real 1.86
+user 30.73
+sys 0.24
+
+test 56
+
+Running orginal z5...
+Running test - small...
+real 1.72
+user 1.61
+sys 0.10
+Running test - medium...
+real 7.61
+user 7.44
+sys 0.16
+Running test - big...
+real 61.59
+user 61.22
+sys 0.35
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.99
+user 0.83
+sys 0.16
+Running test - medium...
+real 2.53
+user 2.37
+sys 0.15
+Running test - big...
+real 17.22
+user 16.91
+sys 0.30
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.60
+user 2.05
+sys 0.50
+Running test - medium...
+real 1.99
+user 3.70
+sys 0.16
+Running test - big...
+real 9.30
+user 17.55
+sys 0.35
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.85
+user 3.26
+sys 0.13
+Running test - medium...
+real 1.61
+user 5.70
+sys 0.13
+Running test - big...
+real 9.02
+user 18.29
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.21
+user 3.09
+sys 1.90
+Running test - medium...
+real 1.51
+user 6.03
+sys 0.25
+Running test - big...
+real 4.22
+user 18.57
+sys 0.39
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.33
+sys 0.10
+Running test - medium...
+real 1.10
+user 15.14
+sys 0.14
+Running test - big...
+real 4.18
+user 22.89
+sys 0.35
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.15
+user 3.32
+sys 6.47
+Running test - medium...
+real 1.73
+user 7.94
+sys 0.92
+Running test - big...
+real 2.93
+user 25.80
+sys 0.39
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.05
+user 65.63
+sys 0.26
+Running test - medium...
+real 1.27
+user 69.91
+sys 0.35
+Running test - big...
+real 2.72
+user 41.05
+sys 0.62
+
+test 57
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.47
+sys 0.09
+Running test - medium...
+real 8.06
+user 7.88
+sys 0.17
+Running test - big...
+real 72.51
+user 72.15
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.81
+sys 0.10
+Running test - medium...
+real 2.82
+user 2.65
+sys 0.17
+Running test - big...
+real 20.01
+user 19.65
+sys 0.34
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 1.91
+sys 0.50
+Running test - medium...
+real 2.22
+user 4.06
+sys 0.18
+Running test - big...
+real 10.50
+user 19.68
+sys 0.44
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.03
+sys 0.13
+Running test - medium...
+real 1.75
+user 6.24
+sys 0.16
+Running test - big...
+real 10.50
+user 20.66
+sys 0.41
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.19
+user 2.83
+sys 1.84
+Running test - medium...
+real 1.59
+user 6.44
+sys 0.33
+Running test - big...
+real 4.73
+user 20.96
+sys 0.37
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.55
+sys 0.14
+Running test - medium...
+real 1.24
+user 17.41
+sys 0.11
+Running test - big...
+real 4.57
+user 24.58
+sys 0.41
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 3.12
+sys 6.25
+Running test - medium...
+real 1.87
+user 8.03
+sys 1.06
+Running test - big...
+real 3.20
+user 27.34
+sys 0.39
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.96
+user 59.15
+sys 0.10
+Running test - medium...
+real 1.45
+user 78.61
+sys 0.32
+Running test - big...
+real 3.02
+user 41.75
+sys 1.01
+
+test 58
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.53
+sys 0.08
+Running test - medium...
+real 7.80
+user 7.68
+sys 0.12
+Running test - big...
+real 63.14
+user 62.79
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.86
+sys 0.04
+Running test - medium...
+real 2.64
+user 2.53
+sys 0.10
+Running test - big...
+real 17.37
+user 17.16
+sys 0.20
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 2.04
+sys 0.42
+Running test - medium...
+real 2.01
+user 3.82
+sys 0.09
+Running test - big...
+real 9.30
+user 17.59
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 3.02
+sys 0.06
+Running test - medium...
+real 1.72
+user 6.30
+sys 0.11
+Running test - big...
+real 11.05
+user 20.52
+sys 0.35
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.21
+user 3.01
+sys 2.00
+Running test - medium...
+real 1.55
+user 6.39
+sys 0.25
+Running test - big...
+real 4.31
+user 18.83
+sys 0.33
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.57
+sys 0.08
+Running test - medium...
+real 1.08
+user 15.77
+sys 0.06
+Running test - big...
+real 3.99
+user 22.79
+sys 0.20
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.03
+user 3.39
+sys 6.19
+Running test - medium...
+real 1.82
+user 8.30
+sys 0.85
+Running test - big...
+real 2.95
+user 25.58
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.17
+user 72.94
+sys 0.28
+Running test - medium...
+real 1.21
+user 68.45
+sys 0.33
+Running test - big...
+real 2.73
+user 39.36
+sys 0.98
+
+test 59
+
+Running orginal z5...
+Running test - small...
+real 1.66
+user 1.51
+sys 0.14
+Running test - medium...
+real 9.05
+user 8.91
+sys 0.13
+Running test - big...
+real 43.39
+user 43.06
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.97
+user 0.89
+sys 0.07
+Running test - medium...
+real 2.99
+user 2.80
+sys 0.19
+Running test - big...
+real 12.04
+user 11.63
+sys 0.39
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 1.93
+sys 0.51
+Running test - medium...
+real 2.29
+user 4.18
+sys 0.18
+Running test - big...
+real 6.77
+user 12.16
+sys 0.36
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.83
+user 3.24
+sys 0.06
+Running test - medium...
+real 1.88
+user 6.65
+sys 0.14
+Running test - big...
+real 6.58
+user 12.84
+sys 0.31
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.32
+user 2.96
+sys 2.13
+Running test - medium...
+real 1.72
+user 7.01
+sys 0.31
+Running test - big...
+real 3.31
+user 13.44
+sys 0.30
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.30
+sys 0.11
+Running test - medium...
+real 1.25
+user 17.12
+sys 0.14
+Running test - big...
+real 3.17
+user 16.66
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.02
+user 3.05
+sys 5.83
+Running test - medium...
+real 1.90
+user 8.98
+sys 0.95
+Running test - big...
+real 2.43
+user 17.05
+sys 0.46
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.12
+user 63.46
+sys 0.14
+Running test - medium...
+real 1.38
+user 74.89
+sys 0.63
+Running test - big...
+real 2.38
+user 33.03
+sys 0.57
+
+test 60
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.51
+sys 0.07
+Running test - medium...
+real 7.58
+user 7.47
+sys 0.10
+Running test - big...
+real 53.52
+user 53.20
+sys 0.29
+Running optimized, single-threaded z5...
+Running test - small...
+real 1.00
+user 0.92
+sys 0.08
+Running test - medium...
+real 2.51
+user 2.40
+sys 0.10
+Running test - big...
+real 14.95
+user 14.62
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.40
+user 1.79
+sys 0.50
+Running test - medium...
+real 2.12
+user 3.91
+sys 0.15
+Running test - big...
+real 8.21
+user 15.12
+sys 0.47
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.76
+user 2.97
+sys 0.07
+Running test - medium...
+real 1.57
+user 5.81
+sys 0.09
+Running test - big...
+real 7.81
+user 15.79
+sys 0.33
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 1.86
+user 2.70
+sys 1.73
+Running test - medium...
+real 1.51
+user 6.38
+sys 0.23
+Running test - big...
+real 3.87
+user 16.49
+sys 0.30
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.71
+user 11.28
+sys 0.08
+Running test - medium...
+real 1.07
+user 15.41
+sys 0.09
+Running test - big...
+real 3.79
+user 20.28
+sys 0.34
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.15
+user 3.40
+sys 5.77
+Running test - medium...
+real 1.80
+user 8.02
+sys 0.98
+Running test - big...
+real 2.79
+user 19.30
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 2.24
+user 129.10
+sys 2.48
+Running test - medium...
+real 1.40
+user 76.70
+sys 0.62
+Running test - big...
+real 2.51
+user 36.86
+sys 0.79
+
+test 61
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.51
+sys 0.10
+Running test - medium...
+real 7.29
+user 7.16
+sys 0.12
+Running test - big...
+real 34.10
+user 33.90
+sys 0.18
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.83
+sys 0.11
+Running test - medium...
+real 2.50
+user 2.37
+sys 0.13
+Running test - big...
+real 9.69
+user 9.52
+sys 0.16
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 2.07
+sys 0.47
+Running test - medium...
+real 2.03
+user 3.72
+sys 0.19
+Running test - big...
+real 5.41
+user 10.01
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.10
+sys 0.13
+Running test - medium...
+real 1.61
+user 5.74
+sys 0.13
+Running test - big...
+real 5.25
+user 10.68
+sys 0.25
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.05
+user 2.85
+sys 1.90
+Running test - medium...
+real 1.48
+user 5.99
+sys 0.29
+Running test - big...
+real 2.62
+user 10.99
+sys 0.24
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.35
+sys 0.12
+Running test - medium...
+real 1.09
+user 14.98
+sys 0.14
+Running test - big...
+real 2.43
+user 13.83
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.96
+user 2.97
+sys 5.50
+Running test - medium...
+real 1.82
+user 8.84
+sys 0.99
+Running test - big...
+real 1.86
+user 13.53
+sys 0.28
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.21
+user 70.63
+sys 0.69
+Running test - medium...
+real 1.26
+user 68.95
+sys 0.30
+Running test - big...
+real 1.81
+user 27.56
+sys 0.49
+
+test 62
+
+Running orginal z5...
+Running test - small...
+real 1.66
+user 1.57
+sys 0.08
+Running test - medium...
+real 7.43
+user 7.33
+sys 0.10
+Running test - big...
+real 75.80
+user 75.42
+sys 0.34
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.98
+user 0.85
+sys 0.13
+Running test - medium...
+real 2.60
+user 2.42
+sys 0.17
+Running test - big...
+real 20.43
+user 20.05
+sys 0.37
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.65
+user 2.03
+sys 0.47
+Running test - medium...
+real 2.19
+user 4.07
+sys 0.09
+Running test - big...
+real 10.88
+user 20.28
+sys 0.42
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.84
+user 3.26
+sys 0.08
+Running test - medium...
+real 1.66
+user 5.83
+sys 0.20
+Running test - big...
+real 10.48
+user 20.78
+sys 0.35
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.82
+sys 1.86
+Running test - medium...
+real 1.52
+user 6.20
+sys 0.22
+Running test - big...
+real 5.33
+user 24.50
+sys 0.42
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.36
+sys 0.11
+Running test - medium...
+real 1.11
+user 15.26
+sys 0.19
+Running test - big...
+real 4.63
+user 24.76
+sys 0.32
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.14
+user 3.39
+sys 5.97
+Running test - medium...
+real 1.83
+user 7.94
+sys 0.92
+Running test - big...
+real 3.28
+user 26.47
+sys 0.53
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.29
+user 78.57
+sys 0.91
+Running test - medium...
+real 1.18
+user 64.53
+sys 0.22
+Running test - big...
+real 3.26
+user 42.70
+sys 1.13
+
+test 63
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.48
+sys 0.07
+Running test - medium...
+real 8.46
+user 8.30
+sys 0.15
+Running test - big...
+real 82.43
+user 81.98
+sys 0.40
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.79
+sys 0.12
+Running test - medium...
+real 2.85
+user 2.68
+sys 0.16
+Running test - big...
+real 22.16
+user 21.72
+sys 0.43
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.47
+user 1.86
+sys 0.47
+Running test - medium...
+real 2.27
+user 4.17
+sys 0.20
+Running test - big...
+real 11.57
+user 21.92
+sys 0.45
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.06
+sys 0.10
+Running test - medium...
+real 1.78
+user 6.27
+sys 0.12
+Running test - big...
+real 11.84
+user 23.29
+sys 0.34
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.06
+user 2.52
+sys 1.92
+Running test - medium...
+real 1.61
+user 6.61
+sys 0.27
+Running test - big...
+real 5.24
+user 23.04
+sys 0.49
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.38
+sys 0.08
+Running test - medium...
+real 1.17
+user 15.88
+sys 0.13
+Running test - big...
+real 5.03
+user 27.04
+sys 0.37
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 2.88
+sys 5.70
+Running test - medium...
+real 1.89
+user 8.77
+sys 0.90
+Running test - big...
+real 3.49
+user 28.16
+sys 0.51
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.06
+user 62.30
+sys 0.28
+Running test - medium...
+real 1.14
+user 60.63
+sys 0.39
+Running test - big...
+real 3.34
+user 46.30
+sys 1.04
+
+test 64
+
+Running orginal z5...
+Running test - small...
+real 1.58
+user 1.49
+sys 0.07
+Running test - medium...
+real 6.92
+user 6.81
+sys 0.11
+Running test - big...
+real 64.10
+user 63.78
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.90
+user 0.83
+sys 0.07
+Running test - medium...
+real 2.33
+user 2.26
+sys 0.07
+Running test - big...
+real 17.10
+user 16.86
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 2.02
+sys 0.41
+Running test - medium...
+real 1.86
+user 3.52
+sys 0.09
+Running test - big...
+real 9.26
+user 17.65
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 2.99
+sys 0.08
+Running test - medium...
+real 1.46
+user 5.28
+sys 0.07
+Running test - big...
+real 9.00
+user 18.12
+sys 0.26
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.04
+user 2.78
+sys 1.78
+Running test - medium...
+real 1.32
+user 5.46
+sys 0.26
+Running test - big...
+real 4.37
+user 18.76
+sys 0.22
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.57
+sys 0.17
+Running test - medium...
+real 0.96
+user 13.65
+sys 0.07
+Running test - big...
+real 4.14
+user 22.15
+sys 0.29
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.00
+user 3.16
+sys 5.86
+Running test - medium...
+real 1.62
+user 7.46
+sys 0.73
+Running test - big...
+real 2.99
+user 22.57
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.88
+user 55.24
+sys 0.18
+Running test - medium...
+real 1.06
+user 59.36
+sys 0.16
+Running test - big...
+real 3.07
+user 39.64
+sys 0.31
+
+test 65
+
+Running orginal z5...
+Running test - small...
+real 1.56
+user 1.47
+sys 0.08
+Running test - medium...
+real 8.17
+user 8.01
+sys 0.15
+Running test - big...
+real 45.43
+user 45.11
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.80
+sys 0.11
+Running test - medium...
+real 2.81
+user 2.64
+sys 0.17
+Running test - big...
+real 13.10
+user 12.78
+sys 0.32
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 1.96
+sys 0.48
+Running test - medium...
+real 2.27
+user 4.17
+sys 0.21
+Running test - big...
+real 7.31
+user 13.43
+sys 0.35
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.10
+sys 0.09
+Running test - medium...
+real 1.77
+user 6.19
+sys 0.12
+Running test - big...
+real 6.94
+user 13.93
+sys 0.32
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.12
+user 2.85
+sys 2.08
+Running test - medium...
+real 1.57
+user 6.37
+sys 0.35
+Running test - big...
+real 3.42
+user 14.42
+sys 0.33
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.60
+sys 0.11
+Running test - medium...
+real 1.18
+user 16.02
+sys 0.14
+Running test - big...
+real 3.29
+user 18.21
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.87
+user 3.05
+sys 5.81
+Running test - medium...
+real 1.81
+user 8.59
+sys 0.86
+Running test - big...
+real 2.51
+user 19.38
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.00
+user 61.83
+sys 0.30
+Running test - medium...
+real 1.27
+user 64.32
+sys 0.41
+Running test - big...
+real 2.44
+user 35.18
+sys 0.45
+
+test 66
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.53
+sys 0.06
+Running test - medium...
+real 7.64
+user 7.48
+sys 0.15
+Running test - big...
+real 47.17
+user 46.87
+sys 0.25
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.80
+sys 0.12
+Running test - medium...
+real 2.60
+user 2.41
+sys 0.18
+Running test - big...
+real 13.11
+user 12.79
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.55
+user 1.94
+sys 0.49
+Running test - medium...
+real 2.01
+user 3.70
+sys 0.17
+Running test - big...
+real 7.08
+user 13.07
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.08
+sys 0.09
+Running test - medium...
+real 1.63
+user 5.77
+sys 0.17
+Running test - big...
+real 6.89
+user 13.51
+sys 0.38
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.03
+user 2.72
+sys 1.79
+Running test - medium...
+real 1.54
+user 6.13
+sys 0.25
+Running test - big...
+real 3.36
+user 14.34
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.57
+sys 0.11
+Running test - medium...
+real 1.09
+user 15.27
+sys 0.12
+Running test - big...
+real 3.22
+user 17.10
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.06
+user 2.99
+sys 5.70
+Running test - medium...
+real 1.75
+user 7.92
+sys 0.88
+Running test - big...
+real 2.43
+user 18.31
+sys 0.34
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.99
+user 61.02
+sys 0.38
+Running test - medium...
+real 1.60
+user 88.71
+sys 0.58
+Running test - big...
+real 2.40
+user 34.34
+sys 0.75
+
+test 67
+
+Running orginal z5...
+Running test - small...
+real 1.49
+user 1.41
+sys 0.08
+Running test - medium...
+real 9.95
+user 9.82
+sys 0.13
+Running test - big...
+real 40.50
+user 40.28
+sys 0.16
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.84
+user 0.73
+sys 0.11
+Running test - medium...
+real 3.33
+user 3.17
+sys 0.15
+Running test - big...
+real 11.84
+user 11.69
+sys 0.13
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.45
+user 1.80
+sys 0.48
+Running test - medium...
+real 2.53
+user 4.76
+sys 0.17
+Running test - big...
+real 6.16
+user 12.10
+sys 0.13
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.73
+user 2.85
+sys 0.05
+Running test - medium...
+real 2.06
+user 7.25
+sys 0.12
+Running test - big...
+real 6.10
+user 12.84
+sys 0.14
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.18
+user 2.76
+sys 1.81
+Running test - medium...
+real 1.82
+user 7.74
+sys 0.27
+Running test - big...
+real 2.78
+user 13.27
+sys 0.16
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.68
+user 10.75
+sys 0.07
+Running test - medium...
+real 1.37
+user 18.42
+sys 0.16
+Running test - big...
+real 2.98
+user 17.67
+sys 0.34
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.11
+user 3.29
+sys 6.07
+Running test - medium...
+real 2.10
+user 9.75
+sys 0.98
+Running test - big...
+real 1.99
+user 15.65
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.94
+user 117.63
+sys 1.30
+Running test - medium...
+real 1.70
+user 89.63
+sys 0.41
+Running test - big...
+real 1.82
+user 32.04
+sys 0.39
+
+test 68
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.54
+sys 0.07
+Running test - medium...
+real 7.34
+user 7.30
+sys 0.04
+Running test - big...
+real 44.38
+user 44.20
+sys 0.17
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.84
+sys 0.06
+Running test - medium...
+real 2.42
+user 2.34
+sys 0.07
+Running test - big...
+real 12.58
+user 12.39
+sys 0.18
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 2.01
+sys 0.51
+Running test - medium...
+real 1.88
+user 3.57
+sys 0.07
+Running test - big...
+real 6.67
+user 12.84
+sys 0.15
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.00
+sys 0.09
+Running test - medium...
+real 1.52
+user 5.45
+sys 0.07
+Running test - big...
+real 6.51
+user 13.41
+sys 0.17
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.15
+user 2.77
+sys 1.86
+Running test - medium...
+real 1.34
+user 5.63
+sys 0.18
+Running test - big...
+real 3.00
+user 13.91
+sys 0.11
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.12
+sys 0.08
+Running test - medium...
+real 0.99
+user 13.98
+sys 0.10
+Running test - big...
+real 2.80
+user 16.76
+sys 0.12
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.18
+user 3.20
+sys 6.12
+Running test - medium...
+real 1.70
+user 7.36
+sys 0.77
+Running test - big...
+real 2.07
+user 16.90
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.73
+user 100.79
+sys 0.91
+Running test - medium...
+real 1.44
+user 79.37
+sys 0.58
+Running test - big...
+real 2.05
+user 32.66
+sys 0.56
+
+test 69
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.48
+sys 0.14
+Running test - medium...
+real 6.24
+user 6.14
+sys 0.10
+Running test - big...
+real 73.68
+user 73.34
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.90
+user 0.81
+sys 0.09
+Running test - medium...
+real 2.11
+user 2.00
+sys 0.10
+Running test - big...
+real 20.46
+user 20.11
+sys 0.34
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.47
+user 2.00
+sys 0.44
+Running test - medium...
+real 1.69
+user 3.15
+sys 0.10
+Running test - big...
+real 10.62
+user 20.33
+sys 0.42
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.04
+sys 0.06
+Running test - medium...
+real 1.34
+user 4.84
+sys 0.09
+Running test - big...
+real 10.39
+user 20.89
+sys 0.35
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.23
+user 2.84
+sys 1.82
+Running test - medium...
+real 1.24
+user 5.08
+sys 0.19
+Running test - big...
+real 4.72
+user 21.84
+sys 0.38
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.76
+sys 0.06
+Running test - medium...
+real 0.92
+user 13.09
+sys 0.08
+Running test - big...
+real 4.54
+user 25.34
+sys 0.30
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.03
+user 3.07
+sys 6.14
+Running test - medium...
+real 1.53
+user 5.94
+sys 0.77
+Running test - big...
+real 3.24
+user 29.39
+sys 0.44
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.91
+user 57.08
+sys 0.07
+Running test - medium...
+real 1.19
+user 65.90
+sys 0.22
+Running test - big...
+real 3.03
+user 45.35
+sys 0.48
+
+test 70
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.47
+sys 0.08
+Running test - medium...
+real 8.41
+user 8.30
+sys 0.10
+Running test - big...
+real 32.49
+user 32.22
+sys 0.24
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.86
+user 0.80
+sys 0.06
+Running test - medium...
+real 2.81
+user 2.72
+sys 0.09
+Running test - big...
+real 9.46
+user 9.19
+sys 0.26
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.46
+user 1.98
+sys 0.33
+Running test - medium...
+real 2.20
+user 4.14
+sys 0.12
+Running test - big...
+real 5.12
+user 9.63
+sys 0.16
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.74
+user 2.94
+sys 0.04
+Running test - medium...
+real 1.75
+user 6.43
+sys 0.10
+Running test - big...
+real 4.93
+user 10.28
+sys 0.15
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.17
+user 2.94
+sys 1.78
+Running test - medium...
+real 1.57
+user 6.73
+sys 0.26
+Running test - big...
+real 2.60
+user 10.90
+sys 0.17
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.51
+sys 0.08
+Running test - medium...
+real 1.15
+user 16.61
+sys 0.09
+Running test - big...
+real 2.43
+user 13.97
+sys 0.18
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.04
+user 2.91
+sys 5.58
+Running test - medium...
+real 1.87
+user 9.04
+sys 0.90
+Running test - big...
+real 2.02
+user 14.87
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.89
+user 55.94
+sys 0.10
+Running test - medium...
+real 1.37
+user 74.77
+sys 0.41
+Running test - big...
+real 1.89
+user 28.93
+sys 0.20
+
+test 71
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.42
+sys 0.12
+Running test - medium...
+real 7.90
+user 7.81
+sys 0.08
+Running test - big...
+real 51.84
+user 51.48
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.81
+sys 0.11
+Running test - medium...
+real 2.66
+user 2.48
+sys 0.17
+Running test - big...
+real 14.62
+user 14.29
+sys 0.33
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.58
+user 2.02
+sys 0.43
+Running test - medium...
+real 2.08
+user 3.83
+sys 0.18
+Running test - big...
+real 7.92
+user 14.76
+sys 0.36
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.09
+sys 0.09
+Running test - medium...
+real 1.70
+user 6.05
+sys 0.16
+Running test - big...
+real 7.85
+user 15.72
+sys 0.32
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.22
+user 3.07
+sys 2.01
+Running test - medium...
+real 1.57
+user 6.25
+sys 0.32
+Running test - big...
+real 3.78
+user 15.99
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.97
+sys 0.09
+Running test - medium...
+real 1.17
+user 16.45
+sys 0.16
+Running test - big...
+real 3.66
+user 19.74
+sys 0.37
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.20
+user 3.20
+sys 6.27
+Running test - medium...
+real 1.82
+user 8.27
+sys 0.83
+Running test - big...
+real 2.70
+user 19.46
+sys 0.40
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.88
+user 55.37
+sys 0.31
+Running test - medium...
+real 1.26
+user 68.63
+sys 0.52
+Running test - big...
+real 2.62
+user 37.37
+sys 1.05
+
+test 72
+
+Running orginal z5...
+Running test - small...
+real 1.58
+user 1.49
+sys 0.08
+Running test - medium...
+real 8.03
+user 7.88
+sys 0.14
+Running test - big...
+real 78.58
+user 78.26
+sys 0.30
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.80
+sys 0.12
+Running test - medium...
+real 2.78
+user 2.62
+sys 0.16
+Running test - big...
+real 21.87
+user 21.51
+sys 0.35
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 1.92
+sys 0.52
+Running test - medium...
+real 2.21
+user 4.06
+sys 0.20
+Running test - big...
+real 11.62
+user 21.93
+sys 0.35
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.08
+sys 0.10
+Running test - medium...
+real 1.73
+user 6.20
+sys 0.12
+Running test - big...
+real 11.52
+user 22.77
+sys 0.34
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.65
+sys 1.86
+Running test - medium...
+real 1.64
+user 6.28
+sys 0.29
+Running test - big...
+real 5.08
+user 23.04
+sys 0.39
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.79
+user 12.53
+sys 0.08
+Running test - medium...
+real 1.17
+user 16.20
+sys 0.13
+Running test - big...
+real 4.94
+user 27.25
+sys 0.44
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.92
+user 3.02
+sys 5.99
+Running test - medium...
+real 1.82
+user 7.86
+sys 0.99
+Running test - big...
+real 3.36
+user 28.51
+sys 0.42
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.06
+user 64.33
+sys 0.50
+Running test - medium...
+real 1.13
+user 59.77
+sys 0.47
+Running test - big...
+real 3.21
+user 45.21
+sys 1.01
+
+test 73
+
+Running orginal z5...
+Running test - small...
+real 1.60
+user 1.51
+sys 0.08
+Running test - medium...
+real 7.67
+user 7.58
+sys 0.08
+Running test - big...
+real 68.53
+user 68.18
+sys 0.33
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.82
+sys 0.11
+Running test - medium...
+real 2.61
+user 2.47
+sys 0.14
+Running test - big...
+real 18.94
+user 18.56
+sys 0.37
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.64
+user 2.07
+sys 0.52
+Running test - medium...
+real 2.16
+user 3.92
+sys 0.22
+Running test - big...
+real 9.75
+user 18.58
+sys 0.27
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.12
+sys 0.07
+Running test - medium...
+real 1.65
+user 5.86
+sys 0.17
+Running test - big...
+real 9.56
+user 19.22
+sys 0.32
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.18
+user 2.63
+sys 1.91
+Running test - medium...
+real 1.54
+user 6.27
+sys 0.32
+Running test - big...
+real 4.35
+user 19.68
+sys 0.31
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.77
+sys 0.14
+Running test - medium...
+real 1.11
+user 15.57
+sys 0.14
+Running test - big...
+real 4.23
+user 23.37
+sys 0.32
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.14
+user 2.97
+sys 5.63
+Running test - medium...
+real 1.90
+user 8.37
+sys 1.01
+Running test - big...
+real 3.04
+user 23.54
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.70
+user 95.03
+sys 1.29
+Running test - medium...
+real 1.67
+user 91.90
+sys 0.57
+Running test - big...
+real 2.88
+user 40.64
+sys 0.35
+
+test 74
+
+Running orginal z5...
+Running test - small...
+real 1.60
+user 1.50
+sys 0.09
+Running test - medium...
+real 9.00
+user 8.89
+sys 0.10
+Running test - big...
+real 43.34
+user 43.19
+sys 0.14
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.82
+sys 0.07
+Running test - medium...
+real 2.99
+user 2.90
+sys 0.09
+Running test - big...
+real 12.36
+user 12.16
+sys 0.19
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.57
+user 2.12
+sys 0.42
+Running test - medium...
+real 2.39
+user 4.56
+sys 0.10
+Running test - big...
+real 6.60
+user 12.67
+sys 0.18
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.04
+sys 0.10
+Running test - medium...
+real 1.83
+user 6.56
+sys 0.07
+Running test - big...
+real 6.45
+user 13.54
+sys 0.15
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.08
+user 2.64
+sys 1.95
+Running test - medium...
+real 1.66
+user 6.95
+sys 0.22
+Running test - big...
+real 3.04
+user 13.83
+sys 0.21
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.60
+sys 0.10
+Running test - medium...
+real 1.19
+user 16.50
+sys 0.11
+Running test - big...
+real 2.95
+user 17.63
+sys 0.14
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.18
+user 3.34
+sys 6.07
+Running test - medium...
+real 1.83
+user 8.53
+sys 0.84
+Running test - big...
+real 2.21
+user 18.45
+sys 0.27
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.15
+user 71.03
+sys 0.46
+Running test - medium...
+real 2.13
+user 111.14
+sys 0.35
+Running test - big...
+real 2.15
+user 33.82
+sys 1.38
+
+test 75
+
+Running orginal z5...
+Running test - small...
+real 1.66
+user 1.55
+sys 0.11
+Running test - medium...
+real 7.25
+user 7.13
+sys 0.12
+Running test - big...
+real 46.83
+user 46.58
+sys 0.24
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.97
+user 0.85
+sys 0.11
+Running test - medium...
+real 2.47
+user 2.32
+sys 0.14
+Running test - big...
+real 13.18
+user 12.86
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.65
+user 2.12
+sys 0.48
+Running test - medium...
+real 1.95
+user 3.62
+sys 0.14
+Running test - big...
+real 7.15
+user 13.56
+sys 0.29
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.16
+sys 0.14
+Running test - medium...
+real 1.56
+user 5.60
+sys 0.14
+Running test - big...
+real 6.91
+user 14.20
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.06
+user 2.96
+sys 1.74
+Running test - medium...
+real 1.49
+user 5.87
+sys 0.25
+Running test - big...
+real 3.33
+user 14.80
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.79
+user 12.57
+sys 0.12
+Running test - medium...
+real 1.07
+user 15.13
+sys 0.12
+Running test - big...
+real 3.16
+user 18.19
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.14
+user 3.11
+sys 5.87
+Running test - medium...
+real 1.76
+user 7.56
+sys 0.83
+Running test - big...
+real 2.28
+user 19.26
+sys 0.34
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.08
+user 66.51
+sys 0.37
+Running test - medium...
+real 1.24
+user 68.41
+sys 0.29
+Running test - big...
+real 2.29
+user 33.42
+sys 1.24
+
+test 76
+
+Running orginal z5...
+Running test - small...
+real 1.74
+user 1.67
+sys 0.06
+Running test - medium...
+real 6.60
+user 6.46
+sys 0.13
+Running test - big...
+real 33.04
+user 32.88
+sys 0.14
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.81
+sys 0.13
+Running test - medium...
+real 2.30
+user 2.17
+sys 0.12
+Running test - big...
+real 9.63
+user 9.38
+sys 0.24
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.60
+user 1.98
+sys 0.49
+Running test - medium...
+real 1.91
+user 3.51
+sys 0.14
+Running test - big...
+real 5.40
+user 9.87
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.13
+sys 0.13
+Running test - medium...
+real 1.46
+user 5.25
+sys 0.11
+Running test - big...
+real 5.27
+user 10.52
+sys 0.27
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.15
+user 3.01
+sys 1.96
+Running test - medium...
+real 1.36
+user 5.41
+sys 0.28
+Running test - big...
+real 2.66
+user 10.96
+sys 0.18
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.05
+sys 0.10
+Running test - medium...
+real 1.00
+user 14.15
+sys 0.15
+Running test - big...
+real 2.51
+user 13.87
+sys 0.30
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.14
+user 2.88
+sys 5.88
+Running test - medium...
+real 1.65
+user 6.98
+sys 0.84
+Running test - big...
+real 2.06
+user 14.52
+sys 0.31
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.83
+user 108.47
+sys 1.23
+Running test - medium...
+real 1.01
+user 56.50
+sys 0.14
+Running test - big...
+real 1.95
+user 30.99
+sys 0.28
+
+test 77
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.52
+sys 0.07
+Running test - medium...
+real 6.14
+user 6.06
+sys 0.08
+Running test - big...
+real 47.26
+user 46.90
+sys 0.33
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.82
+sys 0.11
+Running test - medium...
+real 2.16
+user 1.97
+sys 0.17
+Running test - big...
+real 13.93
+user 13.68
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.60
+user 2.04
+sys 0.51
+Running test - medium...
+real 1.81
+user 3.22
+sys 0.19
+Running test - big...
+real 8.13
+user 14.74
+sys 0.35
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.12
+sys 0.10
+Running test - medium...
+real 1.40
+user 5.26
+sys 0.10
+Running test - big...
+real 7.29
+user 14.50
+sys 0.31
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.15
+user 2.39
+sys 2.17
+Running test - medium...
+real 1.38
+user 5.23
+sys 0.31
+Running test - big...
+real 3.48
+user 14.68
+sys 0.37
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.40
+sys 0.10
+Running test - medium...
+real 0.96
+user 14.35
+sys 0.11
+Running test - big...
+real 3.33
+user 17.97
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.07
+user 3.00
+sys 5.69
+Running test - medium...
+real 1.61
+user 7.11
+sys 0.90
+Running test - big...
+real 2.58
+user 19.63
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.42
+user 86.04
+sys 0.99
+Running test - medium...
+real 1.15
+user 62.73
+sys 0.24
+Running test - big...
+real 2.39
+user 34.20
+sys 0.40
+
+test 78
+
+Running orginal z5...
+Running test - small...
+real 1.65
+user 1.52
+sys 0.12
+Running test - medium...
+real 7.62
+user 7.54
+sys 0.08
+Running test - big...
+real 47.91
+user 47.71
+sys 0.16
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.81
+sys 0.09
+Running test - medium...
+real 2.56
+user 2.49
+sys 0.06
+Running test - big...
+real 12.69
+user 12.47
+sys 0.22
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 2.10
+sys 0.43
+Running test - medium...
+real 2.02
+user 3.81
+sys 0.10
+Running test - big...
+real 7.02
+user 13.20
+sys 0.20
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 3.00
+sys 0.08
+Running test - medium...
+real 1.63
+user 6.05
+sys 0.09
+Running test - big...
+real 6.89
+user 13.80
+sys 0.22
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.88
+sys 1.80
+Running test - medium...
+real 1.48
+user 6.27
+sys 0.21
+Running test - big...
+real 3.29
+user 14.19
+sys 0.18
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.61
+sys 0.06
+Running test - medium...
+real 1.05
+user 15.58
+sys 0.09
+Running test - big...
+real 3.09
+user 16.98
+sys 0.19
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.07
+user 3.30
+sys 6.26
+Running test - medium...
+real 1.79
+user 8.39
+sys 0.92
+Running test - big...
+real 2.25
+user 18.28
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.03
+user 61.61
+sys 0.51
+Running test - medium...
+real 1.30
+user 72.14
+sys 0.65
+Running test - big...
+real 2.35
+user 33.47
+sys 0.55
+
+test 79
+
+Running orginal z5...
+Running test - small...
+real 1.49
+user 1.39
+sys 0.09
+Running test - medium...
+real 7.86
+user 7.73
+sys 0.13
+Running test - big...
+real 45.18
+user 44.90
+sys 0.27
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.87
+user 0.73
+sys 0.14
+Running test - medium...
+real 2.68
+user 2.53
+sys 0.15
+Running test - big...
+real 12.33
+user 12.07
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.43
+user 1.89
+sys 0.37
+Running test - medium...
+real 2.27
+user 4.10
+sys 0.19
+Running test - big...
+real 6.56
+user 12.28
+sys 0.35
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.76
+user 2.97
+sys 0.07
+Running test - medium...
+real 1.71
+user 6.14
+sys 0.15
+Running test - big...
+real 6.43
+user 12.99
+sys 0.21
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.05
+user 2.54
+sys 2.11
+Running test - medium...
+real 1.57
+user 6.30
+sys 0.28
+Running test - big...
+real 3.07
+user 13.35
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.71
+user 11.32
+sys 0.10
+Running test - medium...
+real 1.16
+user 16.12
+sys 0.21
+Running test - big...
+real 2.92
+user 16.13
+sys 0.21
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.85
+user 3.17
+sys 5.88
+Running test - medium...
+real 1.84
+user 8.20
+sys 0.88
+Running test - big...
+real 2.26
+user 16.79
+sys 0.38
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.30
+user 78.37
+sys 0.40
+Running test - medium...
+real 1.12
+user 62.04
+sys 0.37
+Running test - big...
+real 2.11
+user 32.22
+sys 0.38
+
+test 80
+
+Running orginal z5...
+Running test - small...
+real 1.49
+user 1.42
+sys 0.06
+Running test - medium...
+real 8.82
+user 8.65
+sys 0.16
+Running test - big...
+real 37.17
+user 36.94
+sys 0.22
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.76
+sys 0.12
+Running test - medium...
+real 3.01
+user 2.86
+sys 0.15
+Running test - big...
+real 10.94
+user 10.68
+sys 0.26
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.47
+user 1.89
+sys 0.48
+Running test - medium...
+real 2.38
+user 4.41
+sys 0.19
+Running test - big...
+real 6.05
+user 11.30
+sys 0.27
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 2.97
+sys 0.10
+Running test - medium...
+real 1.88
+user 6.64
+sys 0.16
+Running test - big...
+real 5.81
+user 11.87
+sys 0.24
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.07
+user 2.41
+sys 1.70
+Running test - medium...
+real 1.69
+user 6.90
+sys 0.26
+Running test - big...
+real 2.91
+user 12.21
+sys 0.29
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.43
+sys 0.11
+Running test - medium...
+real 1.25
+user 16.99
+sys 0.17
+Running test - big...
+real 2.73
+user 15.43
+sys 0.22
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.98
+user 2.89
+sys 6.25
+Running test - medium...
+real 1.91
+user 8.52
+sys 0.87
+Running test - big...
+real 2.18
+user 16.11
+sys 0.35
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.44
+user 87.86
+sys 1.01
+Running test - medium...
+real 1.42
+user 75.20
+sys 0.23
+Running test - big...
+real 2.13
+user 31.90
+sys 0.43
+
+test 81
+
+Running orginal z5...
+Running test - small...
+real 1.64
+user 1.55
+sys 0.08
+Running test - medium...
+real 8.35
+user 8.24
+sys 0.10
+Running test - big...
+real 38.30
+user 38.10
+sys 0.19
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.97
+user 0.85
+sys 0.12
+Running test - medium...
+real 2.85
+user 2.67
+sys 0.17
+Running test - big...
+real 10.53
+user 10.25
+sys 0.27
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.54
+user 2.04
+sys 0.44
+Running test - medium...
+real 2.29
+user 4.18
+sys 0.21
+Running test - big...
+real 5.88
+user 10.86
+sys 0.26
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.84
+user 3.25
+sys 0.09
+Running test - medium...
+real 1.78
+user 6.22
+sys 0.20
+Running test - big...
+real 5.69
+user 11.41
+sys 0.25
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.17
+user 3.04
+sys 2.01
+Running test - medium...
+real 1.56
+user 6.50
+sys 0.27
+Running test - big...
+real 2.90
+user 11.87
+sys 0.26
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.78
+user 12.24
+sys 0.11
+Running test - medium...
+real 1.18
+user 16.20
+sys 0.14
+Running test - big...
+real 2.79
+user 15.13
+sys 0.24
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.11
+user 3.05
+sys 5.51
+Running test - medium...
+real 1.93
+user 8.72
+sys 0.93
+Running test - big...
+real 2.12
+user 15.70
+sys 0.28
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.08
+user 67.76
+sys 0.42
+Running test - medium...
+real 1.27
+user 67.18
+sys 0.16
+Running test - big...
+real 1.96
+user 29.51
+sys 0.24
+
+test 82
+
+Running orginal z5...
+Running test - small...
+real 1.69
+user 1.60
+sys 0.08
+Running test - medium...
+real 8.49
+user 8.38
+sys 0.10
+Running test - big...
+real 37.84
+user 37.62
+sys 0.21
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.82
+sys 0.09
+Running test - medium...
+real 2.88
+user 2.76
+sys 0.12
+Running test - big...
+real 10.61
+user 10.45
+sys 0.15
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.63
+user 2.13
+sys 0.45
+Running test - medium...
+real 2.28
+user 4.27
+sys 0.15
+Running test - big...
+real 5.75
+user 10.94
+sys 0.17
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.03
+sys 0.09
+Running test - medium...
+real 1.79
+user 6.51
+sys 0.08
+Running test - big...
+real 5.52
+user 11.47
+sys 0.15
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.14
+user 3.07
+sys 1.90
+Running test - medium...
+real 1.57
+user 6.75
+sys 0.22
+Running test - big...
+real 2.75
+user 11.98
+sys 0.18
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.89
+sys 0.08
+Running test - medium...
+real 1.17
+user 16.55
+sys 0.10
+Running test - big...
+real 2.61
+user 15.35
+sys 0.17
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.95
+user 3.21
+sys 6.11
+Running test - medium...
+real 1.90
+user 9.11
+sys 0.94
+Running test - big...
+real 2.00
+user 15.70
+sys 0.19
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.32
+user 76.16
+sys 0.77
+Running test - medium...
+real 1.28
+user 70.30
+sys 0.14
+Running test - big...
+real 1.90
+user 30.65
+sys 0.16
+
+test 83
+
+Running orginal z5...
+Running test - small...
+real 1.52
+user 1.45
+sys 0.07
+Running test - medium...
+real 8.99
+user 8.91
+sys 0.07
+Running test - big...
+real 42.33
+user 42.04
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.86
+user 0.77
+sys 0.08
+Running test - medium...
+real 2.96
+user 2.84
+sys 0.12
+Running test - big...
+real 11.78
+user 11.61
+sys 0.16
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 2.04
+sys 0.40
+Running test - medium...
+real 2.32
+user 4.37
+sys 0.16
+Running test - big...
+real 6.47
+user 12.33
+sys 0.18
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.90
+sys 0.11
+Running test - medium...
+real 1.83
+user 6.58
+sys 0.09
+Running test - big...
+real 6.32
+user 12.98
+sys 0.17
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.02
+user 2.71
+sys 2.07
+Running test - medium...
+real 1.71
+user 6.99
+sys 0.26
+Running test - big...
+real 2.96
+user 13.49
+sys 0.20
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.54
+sys 0.09
+Running test - medium...
+real 1.29
+user 17.81
+sys 0.13
+Running test - big...
+real 2.84
+user 16.76
+sys 0.14
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.10
+user 3.05
+sys 6.04
+Running test - medium...
+real 1.92
+user 9.89
+sys 0.97
+Running test - big...
+real 2.06
+user 17.89
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.03
+user 63.43
+sys 0.52
+Running test - medium...
+real 1.42
+user 78.57
+sys 0.23
+Running test - big...
+real 1.85
+user 31.72
+sys 0.16
+
+test 84
+
+Running orginal z5...
+Running test - small...
+real 1.53
+user 1.40
+sys 0.12
+Running test - medium...
+real 8.20
+user 8.03
+sys 0.15
+Running test - big...
+real 70.92
+user 70.57
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.78
+sys 0.13
+Running test - medium...
+real 2.84
+user 2.65
+sys 0.19
+Running test - big...
+real 19.74
+user 19.30
+sys 0.43
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.52
+user 1.95
+sys 0.43
+Running test - medium...
+real 2.26
+user 4.15
+sys 0.18
+Running test - big...
+real 10.35
+user 19.59
+sys 0.37
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.02
+sys 0.11
+Running test - medium...
+real 1.78
+user 6.39
+sys 0.15
+Running test - big...
+real 10.24
+user 20.48
+sys 0.38
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.15
+user 2.67
+sys 1.95
+Running test - medium...
+real 1.61
+user 6.51
+sys 0.33
+Running test - big...
+real 4.64
+user 20.87
+sys 0.33
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.63
+sys 0.12
+Running test - medium...
+real 1.22
+user 17.02
+sys 0.12
+Running test - big...
+real 4.53
+user 24.56
+sys 0.44
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.80
+user 2.73
+sys 5.95
+Running test - medium...
+real 1.96
+user 8.71
+sys 1.00
+Running test - big...
+real 3.26
+user 27.09
+sys 0.43
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.89
+user 115.60
+sys 1.48
+Running test - medium...
+real 1.41
+user 75.34
+sys 0.38
+Running test - big...
+real 3.00
+user 42.74
+sys 0.38
+
+test 85
+
+Running orginal z5...
+Running test - small...
+real 1.58
+user 1.50
+sys 0.08
+Running test - medium...
+real 6.32
+user 6.19
+sys 0.13
+Running test - big...
+real 30.82
+user 30.65
+sys 0.16
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.90
+user 0.82
+sys 0.08
+Running test - medium...
+real 2.24
+user 2.07
+sys 0.17
+Running test - big...
+real 9.02
+user 8.79
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 2.05
+sys 0.46
+Running test - medium...
+real 1.79
+user 3.34
+sys 0.10
+Running test - big...
+real 4.85
+user 9.20
+sys 0.18
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 2.97
+sys 0.11
+Running test - medium...
+real 1.42
+user 5.26
+sys 0.11
+Running test - big...
+real 4.74
+user 9.75
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.10
+user 2.86
+sys 2.13
+Running test - medium...
+real 1.40
+user 5.60
+sys 0.20
+Running test - big...
+real 2.39
+user 10.29
+sys 0.17
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.70
+sys 0.07
+Running test - medium...
+real 0.99
+user 14.45
+sys 0.10
+Running test - big...
+real 2.23
+user 13.25
+sys 0.24
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.03
+user 3.21
+sys 5.86
+Running test - medium...
+real 1.65
+user 7.19
+sys 0.93
+Running test - big...
+real 1.82
+user 14.43
+sys 0.26
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.07
+user 65.23
+sys 0.46
+Running test - medium...
+real 1.16
+user 66.20
+sys 0.25
+Running test - big...
+real 1.70
+user 28.28
+sys 0.23
+
+test 86
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.53
+sys 0.08
+Running test - medium...
+real 8.49
+user 8.38
+sys 0.10
+Running test - big...
+real 41.26
+user 40.98
+sys 0.23
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.82
+sys 0.12
+Running test - medium...
+real 2.88
+user 2.74
+sys 0.13
+Running test - big...
+real 11.76
+user 11.44
+sys 0.31
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 1.99
+sys 0.52
+Running test - medium...
+real 2.21
+user 4.07
+sys 0.21
+Running test - big...
+real 6.43
+user 12.04
+sys 0.28
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.82
+user 3.16
+sys 0.10
+Running test - medium...
+real 1.82
+user 6.49
+sys 0.14
+Running test - big...
+real 6.29
+user 12.75
+sys 0.23
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.08
+user 2.84
+sys 1.92
+Running test - medium...
+real 1.70
+user 6.64
+sys 0.29
+Running test - big...
+real 3.09
+user 13.11
+sys 0.31
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.07
+sys 0.13
+Running test - medium...
+real 1.19
+user 16.52
+sys 0.17
+Running test - big...
+real 2.91
+user 16.26
+sys 0.29
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.10
+user 3.05
+sys 6.10
+Running test - medium...
+real 1.84
+user 8.51
+sys 0.81
+Running test - big...
+real 2.24
+user 17.84
+sys 0.36
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.33
+user 80.28
+sys 0.89
+Running test - medium...
+real 1.27
+user 69.50
+sys 0.29
+Running test - big...
+real 2.14
+user 32.60
+sys 0.36
+
+test 87
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.53
+sys 0.09
+Running test - medium...
+real 7.07
+user 6.95
+sys 0.11
+Running test - big...
+real 76.53
+user 76.30
+sys 0.21
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.84
+sys 0.07
+Running test - medium...
+real 2.43
+user 2.35
+sys 0.07
+Running test - big...
+real 20.34
+user 20.09
+sys 0.23
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.51
+user 1.99
+sys 0.45
+Running test - medium...
+real 1.93
+user 3.64
+sys 0.11
+Running test - big...
+real 10.60
+user 20.37
+sys 0.27
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.09
+sys 0.03
+Running test - medium...
+real 1.52
+user 5.47
+sys 0.08
+Running test - big...
+real 10.50
+user 21.17
+sys 0.20
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.19
+user 2.96
+sys 1.75
+Running test - medium...
+real 1.36
+user 5.85
+sys 0.21
+Running test - big...
+real 4.57
+user 21.76
+sys 0.24
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.60
+sys 0.08
+Running test - medium...
+real 0.98
+user 14.00
+sys 0.10
+Running test - big...
+real 4.47
+user 25.15
+sys 0.16
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.88
+user 3.11
+sys 6.14
+Running test - medium...
+real 1.69
+user 7.95
+sys 0.84
+Running test - big...
+real 2.87
+user 28.06
+sys 0.31
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.35
+user 80.23
+sys 1.19
+Running test - medium...
+real 1.30
+user 71.40
+sys 0.41
+Running test - big...
+real 2.83
+user 42.87
+sys 1.18
+
+test 88
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.54
+sys 0.06
+Running test - medium...
+real 5.89
+user 5.80
+sys 0.07
+Running test - big...
+real 84.24
+user 83.88
+sys 0.34
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.90
+user 0.80
+sys 0.09
+Running test - medium...
+real 2.00
+user 1.92
+sys 0.08
+Running test - big...
+real 23.29
+user 22.93
+sys 0.35
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.61
+user 2.08
+sys 0.41
+Running test - medium...
+real 1.63
+user 3.03
+sys 0.12
+Running test - big...
+real 12.55
+user 23.73
+sys 0.22
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.77
+user 3.01
+sys 0.07
+Running test - medium...
+real 1.27
+user 4.68
+sys 0.06
+Running test - big...
+real 12.26
+user 23.98
+sys 0.24
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 1.89
+user 2.33
+sys 1.77
+Running test - medium...
+real 1.26
+user 4.92
+sys 0.21
+Running test - big...
+real 5.14
+user 24.65
+sys 0.28
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.52
+sys 0.05
+Running test - medium...
+real 0.87
+user 12.54
+sys 0.11
+Running test - big...
+real 5.02
+user 27.90
+sys 0.24
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.89
+user 2.63
+sys 5.66
+Running test - medium...
+real 1.51
+user 6.24
+sys 0.83
+Running test - big...
+real 3.22
+user 34.44
+sys 0.30
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.03
+user 64.53
+sys 0.12
+Running test - medium...
+real 2.03
+user 118.17
+sys 0.83
+Running test - big...
+real 3.03
+user 47.79
+sys 0.59
+
+test 89
+
+Running orginal z5...
+Running test - small...
+real 1.67
+user 1.55
+sys 0.11
+Running test - medium...
+real 7.60
+user 7.51
+sys 0.08
+Running test - big...
+real 55.40
+user 55.00
+sys 0.38
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.96
+user 0.84
+sys 0.12
+Running test - medium...
+real 2.58
+user 2.44
+sys 0.14
+Running test - big...
+real 15.39
+user 15.01
+sys 0.37
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.51
+user 2.00
+sys 0.42
+Running test - medium...
+real 2.08
+user 3.86
+sys 0.14
+Running test - big...
+real 8.41
+user 15.60
+sys 0.39
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.83
+user 3.23
+sys 0.09
+Running test - medium...
+real 1.65
+user 5.98
+sys 0.15
+Running test - big...
+real 8.26
+user 16.30
+sys 0.34
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.27
+user 2.82
+sys 2.00
+Running test - medium...
+real 1.51
+user 5.87
+sys 0.32
+Running test - big...
+real 3.92
+user 16.89
+sys 0.31
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.81
+user 12.82
+sys 0.13
+Running test - medium...
+real 1.09
+user 15.66
+sys 0.12
+Running test - big...
+real 3.78
+user 20.20
+sys 0.29
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.09
+user 3.18
+sys 5.84
+Running test - medium...
+real 1.76
+user 7.84
+sys 1.01
+Running test - big...
+real 2.73
+user 21.67
+sys 0.40
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.37
+user 84.03
+sys 0.82
+Running test - medium...
+real 1.19
+user 65.99
+sys 0.23
+Running test - big...
+real 2.68
+user 36.74
+sys 1.00
+
+test 90
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.50
+sys 0.10
+Running test - medium...
+real 6.66
+user 6.57
+sys 0.09
+Running test - big...
+real 45.59
+user 45.33
+sys 0.24
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.91
+user 0.87
+sys 0.03
+Running test - medium...
+real 2.26
+user 2.17
+sys 0.09
+Running test - big...
+real 12.79
+user 12.52
+sys 0.27
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.72
+user 2.18
+sys 0.47
+Running test - medium...
+real 1.92
+user 3.55
+sys 0.09
+Running test - big...
+real 7.05
+user 13.05
+sys 0.30
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.13
+sys 0.04
+Running test - medium...
+real 1.44
+user 5.26
+sys 0.08
+Running test - big...
+real 6.84
+user 13.74
+sys 0.29
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.17
+user 2.92
+sys 2.01
+Running test - medium...
+real 1.38
+user 5.39
+sys 0.29
+Running test - big...
+real 3.32
+user 13.94
+sys 0.35
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.83
+sys 0.12
+Running test - medium...
+real 0.99
+user 14.08
+sys 0.12
+Running test - big...
+real 3.14
+user 17.27
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.00
+user 3.20
+sys 5.93
+Running test - medium...
+real 1.56
+user 7.24
+sys 0.66
+Running test - big...
+real 2.42
+user 18.27
+sys 0.42
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.91
+user 57.10
+sys 0.22
+Running test - medium...
+real 0.99
+user 56.05
+sys 0.08
+Running test - big...
+real 2.22
+user 32.64
+sys 0.39
+
+test 91
+
+Running orginal z5...
+Running test - small...
+real 1.52
+user 1.44
+sys 0.07
+Running test - medium...
+real 8.59
+user 8.52
+sys 0.06
+Running test - big...
+real 50.90
+user 50.61
+sys 0.25
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.86
+user 0.79
+sys 0.06
+Running test - medium...
+real 2.84
+user 2.72
+sys 0.11
+Running test - big...
+real 13.80
+user 13.57
+sys 0.22
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.58
+user 2.07
+sys 0.36
+Running test - medium...
+real 2.20
+user 4.25
+sys 0.09
+Running test - big...
+real 7.37
+user 13.96
+sys 0.20
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.74
+user 2.88
+sys 0.08
+Running test - medium...
+real 1.74
+user 6.28
+sys 0.10
+Running test - big...
+real 7.34
+user 14.68
+sys 0.19
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 1.96
+user 2.69
+sys 1.99
+Running test - medium...
+real 1.58
+user 6.76
+sys 0.21
+Running test - big...
+real 3.44
+user 15.24
+sys 0.20
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.39
+sys 0.05
+Running test - medium...
+real 1.16
+user 16.17
+sys 0.07
+Running test - big...
+real 3.31
+user 18.51
+sys 0.17
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.07
+user 3.06
+sys 6.06
+Running test - medium...
+real 1.90
+user 8.66
+sys 1.01
+Running test - big...
+real 2.38
+user 20.58
+sys 0.22
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.91
+user 56.13
+sys 0.14
+Running test - medium...
+real 1.16
+user 62.09
+sys 0.37
+Running test - big...
+real 2.43
+user 35.38
+sys 0.68
+
+test 92
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.47
+sys 0.08
+Running test - medium...
+real 7.53
+user 7.42
+sys 0.10
+Running test - big...
+real 66.41
+user 66.07
+sys 0.31
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.88
+user 0.79
+sys 0.08
+Running test - medium...
+real 2.53
+user 2.41
+sys 0.12
+Running test - big...
+real 18.79
+user 18.53
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 1.99
+sys 0.43
+Running test - medium...
+real 2.10
+user 3.88
+sys 0.12
+Running test - big...
+real 9.80
+user 18.80
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.75
+user 2.93
+sys 0.07
+Running test - medium...
+real 1.60
+user 5.92
+sys 0.07
+Running test - big...
+real 9.82
+user 19.86
+sys 0.31
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.05
+user 2.66
+sys 1.83
+Running test - medium...
+real 1.50
+user 6.17
+sys 0.20
+Running test - big...
+real 4.38
+user 20.15
+sys 0.33
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.74
+user 11.71
+sys 0.04
+Running test - medium...
+real 1.05
+user 15.35
+sys 0.08
+Running test - big...
+real 4.27
+user 23.77
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.03
+user 2.83
+sys 5.64
+Running test - medium...
+real 1.86
+user 7.80
+sys 1.15
+Running test - big...
+real 2.96
+user 26.53
+sys 0.37
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.34
+user 78.47
+sys 0.83
+Running test - medium...
+real 1.11
+user 62.68
+sys 0.16
+Running test - big...
+real 2.85
+user 42.94
+sys 0.95
+
+test 93
+
+Running orginal z5...
+Running test - small...
+real 1.57
+user 1.48
+sys 0.08
+Running test - medium...
+real 8.04
+user 7.89
+sys 0.14
+Running test - big...
+real 70.50
+user 70.13
+sys 0.35
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.83
+sys 0.10
+Running test - medium...
+real 2.70
+user 2.52
+sys 0.18
+Running test - big...
+real 18.99
+user 18.70
+sys 0.28
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.60
+user 2.05
+sys 0.42
+Running test - medium...
+real 2.14
+user 3.94
+sys 0.19
+Running test - big...
+real 9.93
+user 18.97
+sys 0.31
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.16
+sys 0.06
+Running test - medium...
+real 1.70
+user 6.13
+sys 0.14
+Running test - big...
+real 9.92
+user 19.77
+sys 0.37
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.17
+user 2.80
+sys 2.08
+Running test - medium...
+real 1.54
+user 6.23
+sys 0.29
+Running test - big...
+real 4.53
+user 20.25
+sys 0.36
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.88
+sys 0.10
+Running test - medium...
+real 1.13
+user 15.83
+sys 0.12
+Running test - big...
+real 4.40
+user 24.10
+sys 0.27
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.17
+user 2.93
+sys 5.81
+Running test - medium...
+real 1.86
+user 7.87
+sys 1.05
+Running test - big...
+real 3.12
+user 27.04
+sys 0.39
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.35
+user 84.07
+sys 0.27
+Running test - medium...
+real 1.22
+user 66.66
+sys 0.38
+Running test - big...
+real 2.99
+user 42.96
+sys 1.01
+
+test 94
+
+Running orginal z5...
+Running test - small...
+real 1.53
+user 1.46
+sys 0.06
+Running test - medium...
+real 7.90
+user 7.77
+sys 0.13
+Running test - big...
+real 78.06
+user 77.67
+sys 0.37
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.89
+user 0.78
+sys 0.10
+Running test - medium...
+real 2.68
+user 2.52
+sys 0.16
+Running test - big...
+real 21.12
+user 20.68
+sys 0.42
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.46
+user 1.85
+sys 0.47
+Running test - medium...
+real 2.13
+user 3.92
+sys 0.16
+Running test - big...
+real 11.16
+user 21.04
+sys 0.44
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.05
+sys 0.09
+Running test - medium...
+real 1.69
+user 5.90
+sys 0.15
+Running test - big...
+real 11.05
+user 21.81
+sys 0.39
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.20
+user 2.65
+sys 2.08
+Running test - medium...
+real 1.54
+user 6.28
+sys 0.32
+Running test - big...
+real 5.22
+user 22.65
+sys 0.46
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.72
+user 11.45
+sys 0.14
+Running test - medium...
+real 1.14
+user 15.45
+sys 0.13
+Running test - big...
+real 5.01
+user 26.03
+sys 0.45
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.00
+user 3.20
+sys 6.29
+Running test - medium...
+real 1.84
+user 8.45
+sys 1.06
+Running test - big...
+real 3.63
+user 28.45
+sys 0.48
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.07
+user 65.32
+sys 0.38
+Running test - medium...
+real 1.14
+user 60.49
+sys 0.38
+Running test - big...
+real 3.48
+user 44.78
+sys 1.78
+
+test 95
+
+Running orginal z5...
+Running test - small...
+real 1.59
+user 1.49
+sys 0.10
+Running test - medium...
+real 7.76
+user 7.62
+sys 0.13
+Running test - big...
+real 62.87
+user 62.62
+sys 0.24
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.94
+user 0.82
+sys 0.12
+Running test - medium...
+real 2.67
+user 2.51
+sys 0.15
+Running test - big...
+real 17.54
+user 17.27
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.50
+user 1.87
+sys 0.51
+Running test - medium...
+real 2.10
+user 3.86
+sys 0.19
+Running test - big...
+real 9.13
+user 17.63
+sys 0.32
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.10
+sys 0.12
+Running test - medium...
+real 1.71
+user 6.15
+sys 0.15
+Running test - big...
+real 9.04
+user 18.48
+sys 0.26
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.18
+user 2.90
+sys 1.77
+Running test - medium...
+real 1.56
+user 6.49
+sys 0.25
+Running test - big...
+real 3.93
+user 18.62
+sys 0.32
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.75
+user 11.91
+sys 0.10
+Running test - medium...
+real 1.13
+user 16.07
+sys 0.15
+Running test - big...
+real 3.80
+user 22.15
+sys 0.21
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.96
+user 3.05
+sys 5.68
+Running test - medium...
+real 1.89
+user 8.51
+sys 0.95
+Running test - big...
+real 2.51
+user 22.31
+sys 0.32
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.45
+user 88.67
+sys 1.35
+Running test - medium...
+real 1.18
+user 65.12
+sys 0.16
+Running test - big...
+real 2.45
+user 39.15
+sys 1.28
+
+test 96
+
+Running orginal z5...
+Running test - small...
+real 1.61
+user 1.50
+sys 0.11
+Running test - medium...
+real 7.82
+user 7.71
+sys 0.10
+Running test - big...
+real 36.59
+user 36.37
+sys 0.21
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.93
+user 0.83
+sys 0.09
+Running test - medium...
+real 2.67
+user 2.51
+sys 0.15
+Running test - big...
+real 10.53
+user 10.25
+sys 0.27
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.59
+user 1.99
+sys 0.46
+Running test - medium...
+real 2.09
+user 3.84
+sys 0.18
+Running test - big...
+real 5.77
+user 10.80
+sys 0.28
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.81
+user 3.13
+sys 0.11
+Running test - medium...
+real 1.67
+user 5.95
+sys 0.14
+Running test - big...
+real 5.62
+user 11.50
+sys 0.22
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.16
+user 2.72
+sys 1.86
+Running test - medium...
+real 1.54
+user 6.16
+sys 0.30
+Running test - big...
+real 2.85
+user 11.91
+sys 0.25
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.19
+sys 0.08
+Running test - medium...
+real 1.12
+user 15.70
+sys 0.13
+Running test - big...
+real 2.72
+user 15.27
+sys 0.27
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.04
+user 3.39
+sys 6.23
+Running test - medium...
+real 1.75
+user 7.73
+sys 0.85
+Running test - big...
+real 2.11
+user 15.15
+sys 0.29
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.04
+user 64.17
+sys 0.41
+Running test - medium...
+real 1.21
+user 65.97
+sys 0.33
+Running test - big...
+real 1.98
+user 30.17
+sys 0.25
+
+test 97
+
+Running orginal z5...
+Running test - small...
+real 1.62
+user 1.53
+sys 0.08
+Running test - medium...
+real 6.34
+user 6.24
+sys 0.09
+Running test - big...
+real 78.24
+user 77.74
+sys 0.47
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.81
+sys 0.11
+Running test - medium...
+real 2.14
+user 2.03
+sys 0.10
+Running test - big...
+real 20.63
+user 20.20
+sys 0.42
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.56
+user 2.00
+sys 0.46
+Running test - medium...
+real 1.67
+user 3.13
+sys 0.13
+Running test - big...
+real 11.04
+user 20.58
+sys 0.42
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.79
+user 3.10
+sys 0.06
+Running test - medium...
+real 1.38
+user 5.04
+sys 0.10
+Running test - big...
+real 10.91
+user 21.36
+sys 0.39
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.03
+user 2.84
+sys 1.82
+Running test - medium...
+real 1.28
+user 5.09
+sys 0.27
+Running test - big...
+real 5.11
+user 21.80
+sys 0.38
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.64
+sys 0.08
+Running test - medium...
+real 0.91
+user 13.23
+sys 0.10
+Running test - big...
+real 4.96
+user 25.35
+sys 0.46
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.99
+user 3.18
+sys 5.90
+Running test - medium...
+real 1.53
+user 6.22
+sys 0.79
+Running test - big...
+real 3.49
+user 28.22
+sys 0.49
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.31
+user 76.44
+sys 0.64
+Running test - medium...
+real 1.23
+user 68.47
+sys 0.43
+Running test - big...
+real 3.28
+user 43.33
+sys 0.42
+
+test 98
+
+Running orginal z5...
+Running test - small...
+real 1.55
+user 1.48
+sys 0.07
+Running test - medium...
+real 8.77
+user 8.62
+sys 0.15
+Running test - big...
+real 40.20
+user 40.01
+sys 0.18
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.83
+sys 0.09
+Running test - medium...
+real 2.98
+user 2.82
+sys 0.15
+Running test - big...
+real 11.41
+user 11.18
+sys 0.21
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.53
+user 1.91
+sys 0.47
+Running test - medium...
+real 2.42
+user 4.44
+sys 0.19
+Running test - big...
+real 6.26
+user 11.78
+sys 0.25
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.80
+user 3.06
+sys 0.12
+Running test - medium...
+real 1.88
+user 6.57
+sys 0.17
+Running test - big...
+real 6.04
+user 12.43
+sys 0.25
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.13
+user 2.66
+sys 1.83
+Running test - medium...
+real 1.78
+user 6.85
+sys 0.33
+Running test - big...
+real 3.02
+user 13.03
+sys 0.27
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.73
+user 11.58
+sys 0.11
+Running test - medium...
+real 1.28
+user 17.39
+sys 0.19
+Running test - big...
+real 2.88
+user 16.75
+sys 0.30
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.05
+user 3.15
+sys 6.32
+Running test - medium...
+real 1.93
+user 9.31
+sys 0.76
+Running test - big...
+real 2.17
+user 17.53
+sys 0.33
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 1.11
+user 68.18
+sys 0.43
+Running test - medium...
+real 1.37
+user 71.77
+sys 0.25
+Running test - big...
+real 2.09
+user 34.17
+sys 1.05
+
+test 99
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.56
+sys 0.07
+Running test - medium...
+real 8.34
+user 8.25
+sys 0.08
+Running test - big...
+real 52.66
+user 52.38
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.96
+user 0.82
+sys 0.13
+Running test - medium...
+real 2.75
+user 2.63
+sys 0.11
+Running test - big...
+real 14.68
+user 14.30
+sys 0.37
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.59
+user 2.09
+sys 0.39
+Running test - medium...
+real 2.23
+user 4.15
+sys 0.13
+Running test - big...
+real 7.89
+user 14.97
+sys 0.26
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.83
+user 3.17
+sys 0.12
+Running test - medium...
+real 1.71
+user 6.18
+sys 0.10
+Running test - big...
+real 7.80
+user 15.57
+sys 0.35
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.22
+user 2.83
+sys 1.89
+Running test - medium...
+real 1.52
+user 6.33
+sys 0.26
+Running test - big...
+real 3.70
+user 16.12
+sys 0.34
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.76
+user 12.00
+sys 0.09
+Running test - medium...
+real 1.13
+user 15.99
+sys 0.08
+Running test - big...
+real 3.56
+user 19.69
+sys 0.31
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 3.92
+user 2.84
+sys 5.59
+Running test - medium...
+real 1.91
+user 8.90
+sys 0.80
+Running test - big...
+real 2.64
+user 22.19
+sys 0.43
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.95
+user 59.14
+sys 0.17
+Running test - medium...
+real 1.13
+user 60.83
+sys 0.12
+Running test - big...
+real 2.47
+user 37.18
+sys 0.37
+
+test 100
+
+Running orginal z5...
+Running test - small...
+real 1.63
+user 1.60
+sys 0.02
+Running test - medium...
+real 7.51
+user 7.44
+sys 0.07
+Running test - big...
+real 67.50
+user 67.21
+sys 0.26
+Running optimized, single-threaded z5...
+Running test - small...
+real 0.92
+user 0.85
+sys 0.07
+Running test - medium...
+real 2.53
+user 2.44
+sys 0.09
+Running test - big...
+real 18.39
+user 18.13
+sys 0.25
+Running multi-threaded z5 with 4 C++ Threads...
+Running test - small...
+real 1.46
+user 1.98
+sys 0.42
+Running test - medium...
+real 2.04
+user 3.82
+sys 0.12
+Running test - big...
+real 9.87
+user 18.73
+sys 0.23
+Running multi-threaded z5 with 4 OpenMP Threads...
+Running test - small...
+real 0.78
+user 3.04
+sys 0.07
+Running test - medium...
+real 1.58
+user 5.71
+sys 0.08
+Running test - big...
+real 9.46
+user 19.31
+sys 0.17
+Running multi-threaded z5 with 16 C++ Threads...
+Running test - small...
+real 2.16
+user 2.88
+sys 1.83
+Running test - medium...
+real 1.44
+user 6.14
+sys 0.18
+Running test - big...
+real 4.38
+user 19.80
+sys 0.26
+Running multi-threaded z5 with 16 OpenMP Threads...
+Running test - small...
+real 0.77
+user 12.28
+sys 0.06
+Running test - medium...
+real 1.06
+user 14.97
+sys 0.11
+Running test - big...
+real 4.51
+user 24.04
+sys 0.28
+Running multi-threaded z5 with 64 C++ Threads...
+Running test - small...
+real 4.07
+user 3.24
+sys 6.02
+Running test - medium...
+real 1.69
+user 8.17
+sys 0.80
+Running test - big...
+real 2.92
+user 25.98
+sys 0.28
+Running multi-threaded z5 with 64 OpenMP Threads...
+Running test - small...
+real 0.95
+user 59.06
+sys 0.33
+Running test - medium...
+real 1.05
+user 57.80
+sys 0.15
+Running test - big...
+real 2.76
+user 40.51
+sys 0.99

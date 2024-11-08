@@ -1,4 +1,5 @@
 .clang-format
+nohup.out
 /bin
 /tests/input
 /tests/output
